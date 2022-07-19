@@ -23,12 +23,19 @@ ________________________________________________________________________________
 # Applying Dotfiles:
 
 cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm ***(Optional If you want to apply my bspwm configurations)*** 
+
 cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd ***(Optional If you want to apply my bspwm keybinds configurations)*** 
+
 cp ~/dotfiles/dunst/dunstrc ~/.config/dunst
+
 cp ~/dotfiles/kitty/kitty.conf ~/.config/kitty
+
 cp ~/dotfiles/picom/picom.conf ~/.config/picom
+
 cp ~/dotfiles/polybar ~/.config/polybar
+
 cp ~/dotfiles/cava/config ~/.config/cava
+
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 
 
