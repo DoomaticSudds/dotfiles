@@ -6,7 +6,7 @@ sxhkd &
 #mpd &
 picom &
 #dunst &
-feh --bg-fill ~/Pictures/life.png &
+feh --bg-fill ~/Pictures/Wallpapers/life.png &
 picom --config ~/.config/picom/picom.conf &
 xinput set-prop 11 317 1
 xinput set-prop 11 327 0
