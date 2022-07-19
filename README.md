@@ -26,9 +26,9 @@ ________________________________________________________________________________
 
 # Applying Dotfiles:
 
-cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm ***(Optional If you want to apply my bspwm configurations)*** 
+cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm ***(Optional If you want to use my bspwm configurations)*** 
 
-cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd ***(Optional If you want to apply my bspwm keybinds configurations)*** 
+cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd ***(Optional If you want to use my keybinds configurations)*** 
 
 cp ~/dotfiles/dunst/dunstrc ~/.config/dunst
 
