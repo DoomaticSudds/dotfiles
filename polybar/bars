@@ -1,0 +1,198 @@
+;  ________  ________  ________  ___  ___  ________  ________   ________          ________  ___  ___  ___  ________ ________  ___  ___     
+; |\   ____\|\   __  \|\   ___ \|\  \|\  \|\   __  \|\   ___  \|\   ___ \        |\   ____\|\  \|\  \|\  \|\   __  \\_____  \|\  \|\  \    
+; \ \  \___|\ \  \|\  \ \  \_|\ \ \  \\\  \ \  \|\  \ \  \\ \  \ \  \_|\ \       \ \  \___|\ \  \ \  \\\  \ \  \|\  \|___/  /\ \  \\\  \   
+;  \ \  \  __\ \  \\\  \ \  \ \\ \ \   __  \ \   __  \ \  \\ \  \ \  \ \\ \       \ \_____  \ \  \ \  \\\  \ \   _  _\  /  / /\ \  \\\  \  
+;   \ \  \|\  \ \  \\\  \ \  \_\\ \ \  \ \  \ \  \ \  \ \  \\ \  \ \  \_\\ \       \|____|\  \ \  \ \  \\\  \ \  \\  \|/  /_/__\ \  \\\  \ 
+;    \ \_______\ \_______\ \_______\ \__\ \__\ \__\ \__\ \__\\ \__\ \_______\        ____\_\  \ \__\ \_______\ \__\\ _\\________\ \_______\
+;     \|_______|\|_______|\|_______|\|__|\|__|\|__|\|__|\|__| \|__|\|_______|       |\_________\|__|\|_______|\|__|\|__\|_______|\|_______|
+;                                                                                    |_________|                                           
+                                                                                                                                                                                                        
+[bar/main]
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = false
+
+width = 37%
+height = 20
+
+offset-x = 2
+offset-y = 5
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius-top = 1.0
+radius-bottom = 1.0
+
+line-size = 2
+line-color = ${color.green}
+
+border-size = 6
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+
+# Default
+
+modules-left = launcher dot YLD network YRD spacing  CLD volume CRD spacing RBL brightness RBR spacing GLD battery GRD
+modules-center =
+modules-right =
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[bar/ballzz]
+
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = false
+
+width = 25%
+height = 20
+
+offset-x = 515
+offset-y = 5
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius-top = 1.0
+radius-bottom = 1.0
+
+line-size = 1
+line-color = ${color.green}
+
+border-size = 6
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+
+modules-left = workspaces dot mpd
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[bar/LinusTorballzz]
+
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = false
+
+width = 37%
+height = 22
+
+offset-x = 62.9%
+offset-y = 5
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius-top = 1.0
+radius-bottom = 1.0
+
+line-size = 1
+line-color = ${color.green}
+
+border-size = 6
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+
+modules-center = ABL cpu ABR spacing RLD memory RRD spacing FSL filesystem FSR dot ABL time ABR
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll = 
