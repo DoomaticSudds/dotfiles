@@ -42,6 +42,15 @@ cp ~/dotfiles/cava/config ~/.config/cava
 
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 
+# Credits:
+
+Rofi Configuration: https://github.com/yuky2020/rofi-themes
+Neofetch Configuration: https://github.com/Chick2D/neofetch-themes
+Gtk Theme: https://www.gnome-look.org/p/1681313
+Cursor Theme: https://www.gnome-look.org/p/1831077
+
+
+
 
 
 
