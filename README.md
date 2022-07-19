@@ -2,11 +2,11 @@
 
 _________________________________________________________________________________________________________________________________________________________
 
-Pre-Installation:
+# Pre-Installation:
 
-Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava
-Ubuntu: sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava
-Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava
+Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava feh
+Ubuntu: sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh
+Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh
 _________________________________________________________________________________________________________________________________________________________
 # Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
 _________________________________________________________________________________________________________________________________________________________
