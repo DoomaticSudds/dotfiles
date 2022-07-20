@@ -4,6 +4,26 @@ I am u/Siurzu & GodHand Siurzu
 
 _________________________________________________________________________________________________________________________________________________________
 
+# Info:
+
+Window Manager: BSPWM
+
+Bar: Polybar
+
+Launcher Rofi
+
+Distro: Arch Linux
+
+Gtk Theme: Gruvbox
+
+Colorscheme: Gruvbox (I edited up a little to flow with some of my wallpapers)
+
+Music Player: MPD/Ncmpcpp
+
+Main Web Browser: Firefox with Gnome Empathy theme
+
+_________________________________________________________________________________________________________________________________________________________
+
 # Pre-Installation:
 
 Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava feh
