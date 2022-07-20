@@ -33,12 +33,19 @@ ________________________________________________________________________________
 # Make your directories if needed:
 
 mkdir ~/.config/bspwm
+
 mkdir ~/.config/polybar
+
 mkdir ~/.config/dunst
+
 mkdir ~/.config/kitty
+
 mkdir ~/.config/cava
+
 mkdir ~/.config/sxhkd
+
 mkdir ~/.fonts
+
 mkdir ~/.config/picom
 ________________________________________________________________________________________________________________________________________________________
 
