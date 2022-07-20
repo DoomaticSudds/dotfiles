@@ -72,6 +72,16 @@ Gtk Theme: https://www.gnome-look.org/p/1681313
 
 Cursor Theme: https://www.gnome-look.org/p/1831077
 
+_________________________________________________________________________________________________________________________________________________________
+
+# Screenshots:
+![1](https://user-images.githubusercontent.com/109631397/180031227-edc16dc9-f647-4bda-8feb-df85ade3edab.png)
+
+![Screenshot from 2022-07-19 18-37-35](https://user-images.githubusercontent.com/109631397/179865883-8fca5407-0f73-42e0-ac8f-09b1c731fdfc.png)
+![Screenshot from 2022-07-20 11-10-10](https://user-images.githubusercontent.com/109631397/180031250-c79aaf3b-b602-4c4f-aa37-7ee9567ea1e5.png)
+![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
+
+
 
 
 
