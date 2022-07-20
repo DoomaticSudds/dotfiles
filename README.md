@@ -1,7 +1,5 @@
 # Santahgeo's Dotfiles For Bspwm
 I am u/Siurzu & GodHand Siurzu
-![Screenshot from 2022-07-19 18-37-35](https://user-images.githubusercontent.com/109631397/179865883-8fca5407-0f73-42e0-ac8f-09b1c731fdfc.png)
-
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
