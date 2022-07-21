@@ -77,6 +77,9 @@ Gtk Theme: https://www.gnome-look.org/p/1681313
 
 Cursor Theme: https://www.gnome-look.org/p/1831077
 
+Kitty Theme Based On: Dexpota Kitty Themes (Gruvbox-Dark) /\ https://github.com/dexpota/kitty-themes#gruvbox-dark
+(I just added some transparency to it)
+
 _________________________________________________________________________________________________________________________________________________________
 
 # Screenshots:
