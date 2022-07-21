@@ -24,11 +24,12 @@ ________________________________________________________________________________
 
 # Pre-Installation:
 
-Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava feh
+Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k
 Ubuntu: sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh
 Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh
 _________________________________________________________________________________________________________________________________________________________
 # Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
+# Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
 
@@ -78,7 +79,7 @@ Gtk Theme: https://www.gnome-look.org/p/1681313
 Cursor Theme: https://www.gnome-look.org/p/1831077
 
 Kitty Theme Based On: Dexpota Kitty Themes (Gruvbox-Dark) /\ https://github.com/dexpota/kitty-themes#gruvbox-dark
-(I just added some transparency to it)
+(I just added some transparency to it and different font)
 
 _________________________________________________________________________________________________________________________________________________________
 
