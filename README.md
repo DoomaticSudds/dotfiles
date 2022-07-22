@@ -48,9 +48,13 @@ mkdir ~/.config/sxhkd
 mkdir ~/.fonts
 
 mkdir ~/.config/picom
+
+mkdir ~/Pictures/Wallpapers
 ________________________________________________________________________________________________________________________________________________________
 
 # Applying Dotfiles:
+
+cp ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
 
 cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm ***(Optional If you want to use my bspwm configurations)*** 
 
@@ -66,6 +70,7 @@ cp ~/dotfiles/polybar ~/.config/polybar
 
 cp ~/dotfiles/cava/config ~/.config/cava
 
+
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 
 # Credits:
@@ -80,6 +85,10 @@ Cursor Theme: https://www.gnome-look.org/p/1831077
 
 Kitty Theme Based On: Dexpota Kitty Themes (Gruvbox-Dark) /\ https://github.com/dexpota/kitty-themes#gruvbox-dark
 (I just added some transparency to it and different font)
+
+Firefox Theme: https://github.com/rafaelmardojai/firefox-gnome-theme
+
+Color Scheme Orginal Source: https://github.com/morhetz/gruvbox
 
 _________________________________________________________________________________________________________________________________________________________
 
