@@ -24,9 +24,18 @@ ________________________________________________________________________________
 
 # Pre-Installation:
 
-Arch Linux: yay -S polybar bspwm picom-ibhagwan-git sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k
+Arch Linux: sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k
+
 Ubuntu: sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh
-Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh
+
+Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh 
+
+# ***Optional: Donwloading picom-ibhagwan-git for blurring.***
+
+Arch: yay -Syu picom-ibhagwan-git
+
+**Fedora and Arch Users can read https://github.com/yshui/picom/blob/next/README.md#build to see how to build the package.**
+
 _________________________________________________________________________________________________________________________________________________________
 # Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
 # Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
