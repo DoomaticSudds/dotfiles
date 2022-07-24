@@ -34,7 +34,7 @@ Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh
 
 Arch: yay -Syu picom-ibhagwan-git
 
-**Fedora and Arch Users can read https://github.com/yshui/picom/blob/next/README.md#build to see how to build the package.**
+**Fedora and Ubuntu Users can read https://github.com/yshui/picom/blob/next/README.md#build to see how to build the package.**
 
 _________________________________________________________________________________________________________________________________________________________
 # Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
