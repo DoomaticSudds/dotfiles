@@ -2,9 +2,6 @@
 I am u/Siurzu & GodHand Siurzu
 _________________________________________________________________________________________________________________________________________________________
 
-Quick Note: If you have any issues please read [My Help Sheet](https://github.com/Santahgeo/dotfiles/blob/main/Help.txt).
-_________________________________________________________________________________________________________________________________________________________
-
 Jump To: 
 - [Pre-Installation](https://github.com/Santahgeo/dotfiles#pre-installation)
 - [Creating Directories](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed)
