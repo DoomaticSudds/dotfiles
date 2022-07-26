@@ -128,7 +128,30 @@ ________________________________________________________________________________
 To use Pywal just do: 
 - wal -i /path/to/wallpaper 
 - (You can see a exampe in one of my screenshots
+- ____________________________________________________________________________________________________________________________________________________
+# Issues With Pywal:
 
+# Pywal Not applying colorscheme when I login back into bspwm! How to fix this? :
+- Open the terminal and type
+- cat ~/.cache/wal/colors.Xresources
+- Open ~/.Xresources in your file editor of chose.
+- Copy what the output of cat ~/.cache/wal/colors.Xresources is and copy it to you ~/.Xresources
+
+If you don't have a Xresources file do: mkdir ~/.Xresources
+- If you wont to use my default polybar colorscheme, delete everything in the ~/.Xresources file.
+
+# Pywal Not Applying to kitty
+- Open your [shell]rc file and put 
+- cat ~/.cache/wal/sequences
+- At the end of it.
+
+# Examples:
+![Screenshot from 2022-07-25 19-38-09](https://user-images.githubusercontent.com/109631397/180898151-a909c470-37c8-43b6-b27a-f448d12a4d20.png)
+
+![Screenshot from 2022-07-25 19-36-45](https://user-images.githubusercontent.com/109631397/180898155-d406b36e-ad18-4416-b5e7-b82ff3458044.png)
+
+
+# Pywal Screenshots:
 ![Screenshot from 2022-07-25 18-59-26](https://user-images.githubusercontent.com/109631397/180895056-da05f0d1-e3e1-4297-9060-cb68ac6fd4f9.png)
 
 ![Screenshot from 2022-07-25 19-00-07](https://user-images.githubusercontent.com/109631397/180895069-1c2601af-72db-43f8-978d-3c2a03663fdd.png)
