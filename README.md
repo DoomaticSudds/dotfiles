@@ -155,13 +155,14 @@ ________________________________________________________________________________
 # Help and Quickguide
 
 ## Opening Apps
-- Kitty : super + enter
-- Nemo (File Manager) : super + backspace
+  Kitty : super + enter
+ Nemo (File Manager) : super + backspace
 - Lockscreen : crtl + alt + l
 - Rofi : super + e
 - Firefox : super + w
 - Brave : super + shift + p
 
+_________________________________________________________________________________________________________________________________________________________
 
 ## Window Control and Bspwm Keys
 - Closing Apps : super + q
@@ -174,38 +175,38 @@ ________________________________________________________________________________
 - Moving a Window to another Workspace : super + shift + {1-9} (1 -7 if your using my bspwmrc config)
 - Going to another Workspace : super + {1-9}  (1 -7 if your using my bspwmrc config)
 
-__________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________
 
 # How to
-- Change Polybar Colors:
+### Change Polybar Colors:
 Go to ~/.config/polybar/colors and edit each color to your prefernece. You can also use Pywal to generate colors (based on your wallpaper) 
 for your polybar and terminal.
 
-- Make Kitty autostart with Pywal Colors:
+### Make Kitty autostart with Pywal Colors:
 Add whats bellow to the end of your .bashrc, .zshrc, (or whatever your shell is).
 ```
 cat ~/.cache/wal/sequences
 ```
 
-- Autostart Polybar with Pywal colors:
+### Autostart Polybar with Pywal colors:
  - [ Still trying to figure out a efficent way to do it. ]
 Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources
 Copy all of the output and put it in your ~/.Xresources file.
 
-- Change BetterLockScreen Background
+### Change BetterLockScreen Background
 betterlockscreen -u /path/to/background
 ( Also do betterlockscreen -h for more help )
 
-- Change Polybar Width, Height and Floating Height:
+### Change Polybar Width, Height and Floating Height:
 Open ~/.config/polybar/bars in your perfered text editor.
 Each bar is correctly order so you know which bar you are modifing. (Main being the first bar, ballzz being the second and LinusTorballzz being the last).
-- Widith is to change how long the bar is (you might wanna change the width for the last bar as its not able to show Date, Day, and Time)
-- Height is to change how long your bar is from top-to-bottom.
-- Offset-x is to change how far you bar is from lefft and rightt
-- Offset-y is to change your floating posstion. If you want to place your bar at the bottom of the screen change [ bottom = false] to [ bottom = true ].
-You can mess around with Changing the fonts and modules placment but I rather you not do so.
+***Widith*** is to change how long the bar is (you might wanna change the width for the last bar as its not able to show Date, Day, and Time)
+***Height*** is to change how long your bar is from top-to-bottom.
+***Offset-x*** is to change how far you bar is from lefft and rightt
+***Offset-y*** is to change your floating posstion. If you want to place your bar at the bottom of the screen change [ bottom = false] to [ bottom = true ].
+- You can mess around with Changing the fonts and modules placment but I rather you not do so.
 
-- Change your rofi theme:
+### Change your rofi theme:
 Open rofi-theme-selector with [ super + crtl + e] and choose your theme.
 If you're trying to download a custom theme do:
 ```
