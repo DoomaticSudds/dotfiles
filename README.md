@@ -21,6 +21,16 @@ Music Player: MPD/Ncmpcpp
 Main Web Browser: Firefox with Gnome Empathy theme
 
 _________________________________________________________________________________________________________________________________________________________
+# Link List:
+
+- [Pre-Installlation]([url](https://github.com/Santahgeo/dotfiles#pre-installation))
+- [Making Your directories if you dont have them already]([url](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed))
+- [Applying my Dotfiles]([url](https://github.com/Santahgeo/dotfiles#applying-dotfiles))
+- Optional Things to make your desktop look better
+- Alternitive Themes
+- [Credits]([url](https://github.com/Santahgeo/dotfiles#credits))
+- [Screenshots]([url](https://github.com/Santahgeo/dotfiles#screenshots))
+_________________________________________________________________________________________________________________________________________________________
 
 # Pre-Installation:
 
@@ -82,6 +92,11 @@ cp ~/dotfiles/cava/config ~/.config/cava
 
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 
+________________________________________________________________________________________________________________________________________________________
+
+# Optional Stuff:
+- Using Pywal to make you polybar and terminal flow better with your wallpaper. Use this for consitant themeing
+- 
 # Credits:
 
 Rofi Configuration: https://github.com/yuky2020/rofi-themes
@@ -99,6 +114,11 @@ Firefox Theme: https://github.com/rafaelmardojai/firefox-gnome-theme
 
 Color Scheme Orginal Source: https://github.com/morhetz/gruvbox
 
+Icom Themes: https://github.com/vinceliuice/Tela-circle-icon-theme
+_________________________________________________________________________________________________________________________________________________________
+- Alternetive Stuff
+Gtk Theme: https://github.com/vinceliuice/Colloid-gtk-theme (The Gtk Theme Im using as a now) 
+
 _________________________________________________________________________________________________________________________________________________________
 
 # Screenshots:
@@ -107,10 +127,19 @@ ________________________________________________________________________________
 ![Screenshot from 2022-07-19 18-37-35](https://user-images.githubusercontent.com/109631397/179865883-8fca5407-0f73-42e0-ac8f-09b1c731fdfc.png)
 ![Screenshot from 2022-07-20 11-10-10](https://user-images.githubusercontent.com/109631397/180031250-c79aaf3b-b602-4c4f-aa37-7ee9567ea1e5.png)
 ![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
+________________________________________________________________________________________________________________________________________________________
 
+# Pywal:
 
+To use Pywal just do: 
+- wal -i /path/to/wallpaper 
+- (You can see a exampe in one of my screenshots
 
+![Screenshot from 2022-07-25 18-59-26](https://user-images.githubusercontent.com/109631397/180895056-da05f0d1-e3e1-4297-9060-cb68ac6fd4f9.png)
 
+![Screenshot from 2022-07-25 19-00-07](https://user-images.githubusercontent.com/109631397/180895069-1c2601af-72db-43f8-978d-3c2a03663fdd.png)
+
+![Screenshot from 2022-07-25 19-06-42](https://user-images.githubusercontent.com/109631397/180895232-02f798a8-9818-4e70-98b3-bfbbfcc0bcfc.png)
 
 
 
