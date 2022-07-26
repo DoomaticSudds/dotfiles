@@ -130,14 +130,16 @@ ________________________________________________________________________________
 [Kitty Theme Based On](https://github.com/dexpota/kitty-themes#gruvbox-dark)
 (I just added some transparency to it and different font)
 
-[Firefox Theme](ttps://github.com/rafaelmardojai/firefox-gnome-theme)
+[Firefox Theme](https://github.com/rafaelmardojai/firefox-gnome-theme)
 
 [Color Scheme Orginal Source](https://github.com/morhetz/gruvbox)
 
 [Icom Themes](https://github.com/vinceliuice/Tela-circle-icon-theme)
 _________________________________________________________________________________________________________________________________________________________
 - Alternetive Stuff
-Gtk Theme: https://github.com/vinceliuice/Colloid-gtk-theme (The Gtk Theme Im using as a now) 
+[My Current Gtk Theme](https://github.com/vinceliuice/Colloid-gtk-theme) 
+
+(The Gtk Theme Im using as a now) 
 
 _________________________________________________________________________________________________________________________________________________________
 
