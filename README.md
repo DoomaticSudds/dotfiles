@@ -44,13 +44,13 @@ sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-ner
 
 Ubuntu:
 ```
-sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemi
+sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemo
 ```
 
 
 Fedora: 
 ```
-sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh 
+sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo
 ```
 
 
