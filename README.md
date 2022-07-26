@@ -59,9 +59,12 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh
 
 # ***Optional: Donwloading picom-ibhagwan-git for blurring.***
 
-Arch: yay -Syu picom-ibhagwan-git
+Arch: y
+```
+yay -Syu picom-ibhagwan-git
+```
 
-**Fedora and Ubuntu Users can read https://github.com/yshui/picom/blob/next/README.md#build to see how to build the package.**
+[Fedora and Ubuntu Users can read this to see how to build Picom-ibhagwan](https://github.com/yshui/picom/blob/next/README.md#build).
 
 _________________________________________________________________________________________________________________________________________________________
 ### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
