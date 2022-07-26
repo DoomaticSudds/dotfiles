@@ -2,7 +2,9 @@
 I am u/Siurzu & GodHand Siurzu
 _________________________________________________________________________________________________________________________________________________________
 
-# Info:
+Quick Note: If you have any issues please read [My Help Sheet](https://github.com/Santahgeo/dotfiles/blob/main/Help.txt).
+_________________________________________________________________________________________________________________________________________________________
+#Info:
 
 Window Manager: BSPWM
 
@@ -28,11 +30,23 @@ ________________________________________________________________________________
 
 # Pre-Installation:
 
-Arch Linux: sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k
+Arch Linux: 
+```
+sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k nemo
+```
 
-Ubuntu: sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh
 
-Fedora: sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh 
+Ubuntu:
+```
+sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemi
+```
+
+
+Fedora: 
+```
+sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh 
+```
+
 
 # ***Optional: Donwloading picom-ibhagwan-git for blurring.***
 
@@ -45,7 +59,7 @@ ________________________________________________________________________________
 # Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
-
+```
 mkdir ~/.config/bspwm
 
 mkdir ~/.config/polybar
@@ -63,9 +77,13 @@ mkdir ~/.fonts
 mkdir ~/.config/picom
 
 mkdir ~/Pictures/Wallpapers
+```
+
 ________________________________________________________________________________________________________________________________________________________
 
 # Applying Dotfiles:
+
+```
 
 cp ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
 
@@ -83,8 +101,9 @@ cp ~/dotfiles/polybar ~/.config/polybar
 
 cp ~/dotfiles/cava/config ~/.config/cava
 
-
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
+```
+
 
 ________________________________________________________________________________________________________________________________________________________
 
@@ -123,40 +142,9 @@ ________________________________________________________________________________
 ![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
 ________________________________________________________________________________________________________________________________________________________
 
-# Pywal:
-
-To use Pywal just do: 
-- wal -i /path/to/wallpaper 
-- (You can see a exampe in one of my screenshots
-- ____________________________________________________________________________________________________________________________________________________
-# Issues With Pywal:
-
-# Pywal Not applying colorscheme when I login back into bspwm! How to fix this? :
-- Open the terminal and type
-- cat ~/.cache/wal/colors.Xresources
-- Open ~/.Xresources in your file editor of chose.
-- Copy what the output of cat ~/.cache/wal/colors.Xresources is and copy it to you ~/.Xresources
-
-If you don't have a Xresources file do: mkdir ~/.Xresources
-- If you wont to use my default polybar colorscheme, delete everything in the ~/.Xresources file.
-
-# Pywal Not Applying to kitty
-- Open your [shell]rc file and put 
-- cat ~/.cache/wal/sequences
-- At the end of it.
-
-# Examples:
-![Screenshot from 2022-07-25 19-38-09](https://user-images.githubusercontent.com/109631397/180898151-a909c470-37c8-43b6-b27a-f448d12a4d20.png)
-
-![Screenshot from 2022-07-25 19-36-45](https://user-images.githubusercontent.com/109631397/180898155-d406b36e-ad18-4416-b5e7-b82ff3458044.png)
+# If you have any issues please read [My Help Sheet](https://github.com/Santahgeo/dotfiles/blob/main/Help.txt).
 
 
-# Pywal Screenshots:
-![Screenshot from 2022-07-25 18-59-26](https://user-images.githubusercontent.com/109631397/180895056-da05f0d1-e3e1-4297-9060-cb68ac6fd4f9.png)
-
-![Screenshot from 2022-07-25 19-00-07](https://user-images.githubusercontent.com/109631397/180895069-1c2601af-72db-43f8-978d-3c2a03663fdd.png)
-
-![Screenshot from 2022-07-25 19-06-42](https://user-images.githubusercontent.com/109631397/180895232-02f798a8-9818-4e70-98b3-bfbbfcc0bcfc.png)
 
 
 
