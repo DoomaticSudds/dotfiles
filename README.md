@@ -194,13 +194,18 @@ ________________________________________________________________________________
 
 ### Autostart Polybar with Pywal colors:
  - [ Still trying to figure out a efficent way to do it. ]
+
 Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources
+
 Copy all of the output and put it in your ~/.Xresources file.
 
 _________________________________________________________________________________________________________________________________________________________
 
 ### Change BetterLockScreen Background
+Type whats bellow in your terminal
+```
 betterlockscreen -u /path/to/background
+```
 ( Also do betterlockscreen -h for more help )
 
 _________________________________________________________________________________________________________________________________________________________
@@ -209,8 +214,11 @@ ________________________________________________________________________________
 Open ~/.config/polybar/bars in your perfered text editor.
 Each bar is correctly order so you know which bar you are modifing. (Main being the first bar, ballzz being the second and LinusTorballzz being the last).
 ***Widith*** is to change how long the bar is (you might wanna change the width for the last bar as its not able to show Date, Day, and Time)
+
 ***Height*** is to change how long your bar is from top-to-bottom.
+
 ***Offset-x*** is to change how far you bar is from lefft and rightt
+
 ***Offset-y*** is to change your floating posstion. If you want to place your bar at the bottom of the screen change [ bottom = false] to [ bottom = true ].
 - You can mess around with Changing the fonts and modules placment but I rather you not do so.
 
