@@ -4,7 +4,15 @@ ________________________________________________________________________________
 
 Quick Note: If you have any issues please read [My Help Sheet](https://github.com/Santahgeo/dotfiles/blob/main/Help.txt).
 _________________________________________________________________________________________________________________________________________________________
-#Info:
+
+Jump To: 
+- [Pre-Installation](https://github.com/Santahgeo/dotfiles#pre-installation)
+- [Creating Directories](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed)
+- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles#applying-dotfiles)
+- [Credits](https://github.com/Santahgeo/dotfiles#credits)
+_________________________________________________________________________________________________________________________________________________________
+
+# Info:
 
 Window Manager: BSPWM
 
