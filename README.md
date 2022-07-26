@@ -182,20 +182,28 @@ ________________________________________________________________________________
 Go to ~/.config/polybar/colors and edit each color to your prefernece. You can also use Pywal to generate colors (based on your wallpaper) 
 for your polybar and terminal.
 
+_________________________________________________________________________________________________________________________________________________________
+
 ### Make Kitty autostart with Pywal Colors:
 Add whats bellow to the end of your .bashrc, .zshrc, (or whatever your shell is).
 ```
 cat ~/.cache/wal/sequences
 ```
 
+_________________________________________________________________________________________________________________________________________________________
+
 ### Autostart Polybar with Pywal colors:
  - [ Still trying to figure out a efficent way to do it. ]
 Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources
 Copy all of the output and put it in your ~/.Xresources file.
 
+_________________________________________________________________________________________________________________________________________________________
+
 ### Change BetterLockScreen Background
 betterlockscreen -u /path/to/background
 ( Also do betterlockscreen -h for more help )
+
+_________________________________________________________________________________________________________________________________________________________
 
 ### Change Polybar Width, Height and Floating Height:
 Open ~/.config/polybar/bars in your perfered text editor.
@@ -205,6 +213,8 @@ Each bar is correctly order so you know which bar you are modifing. (Main being 
 ***Offset-x*** is to change how far you bar is from lefft and rightt
 ***Offset-y*** is to change your floating posstion. If you want to place your bar at the bottom of the screen change [ bottom = false] to [ bottom = true ].
 - You can mess around with Changing the fonts and modules placment but I rather you not do so.
+
+_________________________________________________________________________________________________________________________________________________________
 
 ### Change your rofi theme:
 Open rofi-theme-selector with [ super + crtl + e] and choose your theme.
