@@ -10,6 +10,7 @@ Jump To:
 - [Creating Directories](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed)
 - [Applying all themes/configs](https://github.com/Santahgeo/dotfiles#applying-dotfiles)
 - [Credits](https://github.com/Santahgeo/dotfiles#credits)
+- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/main/README.md#help-and-quickguide)
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
@@ -63,8 +64,9 @@ Arch: yay -Syu picom-ibhagwan-git
 **Fedora and Ubuntu Users can read https://github.com/yshui/picom/blob/next/README.md#build to see how to build the package.**
 
 _________________________________________________________________________________________________________________________________________________________
-# Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
-# Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
+### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
+
+### Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
 ```
@@ -115,27 +117,24 @@ sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 
 ________________________________________________________________________________________________________________________________________________________
 
-# Optional Stuff:
-- Using Pywal to make you polybar and terminal flow better with your wallpaper. Use this for consitant themeing
-- 
 # Credits:
 
-Rofi Configuration: https://github.com/yuky2020/rofi-themes
+[Rofi Configuration](https://github.com/yuky2020/rofi-themes)
 
-Neofetch Configuration: https://github.com/Chick2D/neofetch-themes
+[Neofetch Configuration](https://github.com/Chick2D/neofetch-themes)
 
-Gtk Theme: https://www.gnome-look.org/p/1681313
+[Gtk Theme](https://www.gnome-look.org/p/1681313)
 
-Cursor Theme: https://www.gnome-look.org/p/1831077
+[Cursor Theme](https://www.gnome-look.org/p/1831077)
 
-Kitty Theme Based On: Dexpota Kitty Themes (Gruvbox-Dark) /\ https://github.com/dexpota/kitty-themes#gruvbox-dark
+[Kitty Theme Based On](https://github.com/dexpota/kitty-themes#gruvbox-dark)
 (I just added some transparency to it and different font)
 
-Firefox Theme: https://github.com/rafaelmardojai/firefox-gnome-theme
+[Firefox Theme](ttps://github.com/rafaelmardojai/firefox-gnome-theme)
 
-Color Scheme Orginal Source: https://github.com/morhetz/gruvbox
+[Color Scheme Orginal Source](https://github.com/morhetz/gruvbox)
 
-Icom Themes: https://github.com/vinceliuice/Tela-circle-icon-theme
+[Icom Themes](https://github.com/vinceliuice/Tela-circle-icon-theme)
 _________________________________________________________________________________________________________________________________________________________
 - Alternetive Stuff
 Gtk Theme: https://github.com/vinceliuice/Colloid-gtk-theme (The Gtk Theme Im using as a now) 
