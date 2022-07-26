@@ -12,13 +12,17 @@ Launcher Rofi
 
 Distro: Arch Linux
 
-Gtk Theme: -Gruvbox- Colloid Dark (I changed my Gtk theme, as you can see in my Pywal Screenshots)
+Gtk Theme: ~~Gruvbox~~ Colloid Dark (I changed my Gtk theme, as you can see in my Pywal Screenshots)
 
 Colorscheme: Gruvbox (I edited up a little to flow with some of my wallpapers)
 
 Music Player: MPD/Ncmpcpp
 
 Main Web Browser: Firefox with Gnome Empathy theme
+
+File Manager: Nemo
+
+Icons: Tele Icon Circle
 
 _________________________________________________________________________________________________________________________________________________________
 
