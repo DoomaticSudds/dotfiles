@@ -12,7 +12,7 @@ Launcher Rofi
 
 Distro: Arch Linux
 
-Gtk Theme: Gruvbox
+Gtk Theme: -Gruvbox- Colloid Dark (I changed my Gtk theme, as you can see in my Pywal Screenshots)
 
 Colorscheme: Gruvbox (I edited up a little to flow with some of my wallpapers)
 
@@ -20,16 +20,6 @@ Music Player: MPD/Ncmpcpp
 
 Main Web Browser: Firefox with Gnome Empathy theme
 
-_________________________________________________________________________________________________________________________________________________________
-# Link List:
-
-- [Pre-Installlation]([url](https://github.com/Santahgeo/dotfiles#pre-installation))
-- [Making Your directories if you dont have them already]([url](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed))
-- [Applying my Dotfiles]([url](https://github.com/Santahgeo/dotfiles#applying-dotfiles))
-- Optional Things to make your desktop look better
-- Alternitive Themes
-- [Credits]([url](https://github.com/Santahgeo/dotfiles#credits))
-- [Screenshots]([url](https://github.com/Santahgeo/dotfiles#screenshots))
 _________________________________________________________________________________________________________________________________________________________
 
 # Pre-Installation:
