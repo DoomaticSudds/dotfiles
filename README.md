@@ -152,7 +152,8 @@ ________________________________________________________________________________
 
 ________________________________________________________________________________________________________________________________________________________
 
-# Pywal Screenshots (Read the Help/Quickguide to see how to enable Pywal for polybar and for the terminal)
+# Pywal Screenshots 
+### (Read the Help/Quickguide to see how to enable Pywal for polybar and for the terminal)
 
 ![p1](https://user-images.githubusercontent.com/109631397/181343753-168d57d3-78a0-4551-af91-2ece13fbcb23.png)
 ![p2](https://user-images.githubusercontent.com/109631397/181343773-2bd442b2-ddc7-4b9d-bc5c-1284840ec946.png)
