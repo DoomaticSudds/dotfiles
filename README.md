@@ -157,8 +157,8 @@ ________________________________________________________________________________
 # Help and Quickguide
 
 ## Opening Apps
-  Kitty : super + enter
- Nemo (File Manager) : super + backspace
+- Kitty : super + enter
+- Nemo (File Manager) : super + backspace
 - Lockscreen : crtl + alt + l
 - Rofi : super + e
 - Firefox : super + w
