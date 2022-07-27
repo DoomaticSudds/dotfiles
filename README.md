@@ -56,7 +56,7 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo
 
 # ***Optional: Donwloading picom-ibhagwan-git for blurring.***
 
-Arch: y
+Arch: 
 ```
 yay -Syu picom-ibhagwan-git
 ```
@@ -97,9 +97,9 @@ ________________________________________________________________________________
 
 cp ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
 
-cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm ***(Optional If you want to use my bspwm configurations)*** 
+cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm 
 
-cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd ***(Optional If you want to use my keybinds configurations)*** 
+cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd
 
 cp ~/dotfiles/dunst/dunstrc ~/.config/dunst
 
@@ -113,7 +113,7 @@ cp ~/dotfiles/cava/config ~/.config/cava
 
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 ```
-
+## Do not Copy my sxhkdrc if you do not want my keyblinds. 
 
 ________________________________________________________________________________________________________________________________________________________
 
@@ -151,7 +151,7 @@ ________________________________________________________________________________
 ![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
 ________________________________________________________________________________________________________________________________________________________
 
-# If you have any issues please read [My Help Sheet](https://github.com/Santahgeo/dotfiles/blob/main/Help.txt).
+# Read Bellow if you have issues or Need help.
 _________________________________________________________________________________________________________________________________________________________
 
 # Help and Quickguide
