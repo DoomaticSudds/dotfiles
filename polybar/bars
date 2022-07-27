@@ -1,0 +1,73 @@
+; ________  ________  ________   _________  ________  ___  ___  ________  _______   ________     
+;|\   ____\|\   __  \|\   ___  \|\___   ___\\   __  \|\  \|\  \|\   ____\|\  ___ \ |\   __  \    
+;\ \  \___|\ \  \|\  \ \  \\ \  \|___ \  \_\ \  \|\  \ \  \\\  \ \  \___|\ \   __/|\ \  \|\  \   
+; \ \_____  \ \   __  \ \  \\ \  \   \ \  \ \ \   __  \ \   __  \ \  \  __\ \  \_|/_\ \  \\\  \  
+;  \|____|\  \ \  \ \  \ \  \\ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \|\  \ \  \_|\ \ \  \\\  \ 
+;    ____\_\  \ \__\ \__\ \__\\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \_______\ \_______\ \_______\
+;   |\_________\|__|\|__|\|__| \|__|    \|__|  \|__|\|__|\|__|\|__|\|_______|\|_______|\|_______|
+;   \|_________|                                                                                 
+;                                                                                                                                                                                                                                                                                                                                  
+
+
+[bar/v2m]
+
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 98%
+height = 20
+
+offset-x = 1%
+offset-y = 5
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+radius-top = 1.0
+radius-bottom = 1.0
+
+line-size = 1
+line-color = ${color.darkgreen}
+
+border-size = 6
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+
+modules-left = lv2 dot xwin2 dot cp2 mv2 fv2 dot
+modules-center = wv2 dot mpd2
+modules-right = nv2 spacing spacing vv2 b2 spacing bv2 dot tv2 spacing
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll =  

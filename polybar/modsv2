@@ -1,0 +1,385 @@
+; ________  ________  ________   _________  ________  ___  ___  ________  _______   ________     
+;|\   ____\|\   __  \|\   ___  \|\___   ___\\   __  \|\  \|\  \|\   ____\|\  ___ \ |\   __  \    
+;\ \  \___|\ \  \|\  \ \  \\ \  \|___ \  \_\ \  \|\  \ \  \\\  \ \  \___|\ \   __/|\ \  \|\  \   
+; \ \_____  \ \   __  \ \  \\ \  \   \ \  \ \ \   __  \ \   __  \ \  \  __\ \  \_|/_\ \  \\\  \  
+;  \|____|\  \ \  \ \  \ \  \\ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \|\  \ \  \_|\ \ \  \\\  \ 
+;    ____\_\  \ \__\ \__\ \__\\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \_______\ \_______\ \_______\
+;   |\_________\|__|\|__|\|__| \|__|    \|__|  \|__|\|__|\|__|\|__|\|_______|\|_______|\|_______|
+;   \|_________|                                                                                 
+;                    
+
+[module/xwin2]
+type = internal/xwindow
+label = %title:0:60:...%
+label-maxlen = 15
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/cp2]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-padding = 0
+format-prefix-foreground = ${color.blue}
+format-foreground = ${color.dv}
+format-background = ${color.background}
+label = "%{A1:terminal -e gtop &:}%percentage%% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mv2]
+type = internal/memory
+
+interval = 1
+
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${color.red}
+format-foreground = ${color.dv}
+format-background = ${color.background}
+
+label = "%{A1:terminal -e htop &:} %mb_used% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/fv2]
+type = internal/fs
+
+mount-0 = /
+interval = 30
+fixed-values = true
+
+format-mounted = <label-mounted>
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${color.purple}
+format-mounted-prefix-background = ${color.background}
+
+format-unmounted = <label-unmounted>
+format-unmounted-prefix = " "
+format-unmounted-prefix-foreground = ${color.purple}
+format-unmounted-prefix-background = ${color.background}
+
+label-mounted = "%{A1:terminal -e ncdu &:} %free%%{A}"
+label-unmounted = " %mountpoint%: NA"
+label-mounted-foreground = ${color.dv}
+
+label-mounted-background = ${color.background}
+label-unmounted-background = ${color.background}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/wv2]
+type = internal/xworkspaces
+
+pin-workspaces = false
+inline-mode = false
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+fuzzy-match = true
+
+icon-0 = 1;
+icon-1 = 2;
+icon-2 = 3;
+icon-3 = 4;
+icon-4 = 5;
+icon-5 = 6;卵
+icon-6 = 7;
+icon-default = 
+
+format = <label-state>
+
+label-monitor = %name%
+
+label-active = %icon%
+label-active-background = ${color.background}
+label-active-foreground = ${color.yellow}
+label-active-underline = ${color.green}
+
+label-occupied = %icon%
+label-occupied-foreground = ${color.yellow}
+label-occupied-background = ${color.background}
+
+label-urgent = %icon%
+label-urgent-foreground = ${color.background}
+label-urgent-background = ${color.background}
+label-urgent-underline = ${color.green}
+
+label-empty = %icon%
+label-empty-background = ${color.background}
+;label-empty = %icon% if you want to show icons for empty workspaces
+
+label-active-padding = 1
+label-urgent-padding = 1
+label-occupied-padding = 1
+label-empty-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/bv2]
+type = internal/battery
+
+full-at = 99
+
+battery = ${system.battery}
+adapter = ${system.adapter}
+
+poll-interval = 2
+time-format = %H:%M
+
+format-charging = <animation-charging><label-charging>
+format-charging-prefix = 
+
+format-discharging = <ramp-capacity><label-discharging>
+
+format-full = <label-full>
+format-full-prefix = " "
+format-full-prefix-font = 2
+format-full-prefix-foreground = ${color.green}
+format-full-prefix-background = ${color.background}
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full = %percentage%%
+
+label-charging-background = ${color.background}
+label-discharging-background = ${color.background}
+label-full-background = ${color.background}
+
+label-charging-foreground = ${color.dv}
+label-discharging-foreground = ${color.dv}
+label-full-foreground = ${color.dv}
+
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-font = 2
+ramp-capacity-foreground = ${color.green}
+ramp-capacity-background = ${color.background}
+
+animation-charging-0 = " "
+animation-charging-1 = " "
+animation-charging-2 = " "
+animation-charging-3 = " "
+animation-charging-4 = " "
+animation-charging-font = 2
+animation-charging-foreground = ${color.darkblue}
+animation-charging-background = ${color.background}
+animation-charging-framerate = 750
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/vv2]
+type = internal/pulseaudio
+
+use-ui-max = false
+
+interval = 5
+
+format-volume = <ramp-volume><label-volume>
+
+format-muted = <label-muted>
+format-muted-prefix = " "
+format-muted-prefix-font = 2
+format-muted-prefix-foreground = ${color.pink}
+format-muted-prefix-background = ${color.background}
+
+label-volume = "%percentage%% "
+label-muted = "Mute"
+
+label-volume-background = ${color.background}
+label-muted-background = ${color.background}
+
+label-volume-foreground = ${color.dv}
+label-muted-foreground = ${color.red}
+
+ramp-volume-0 = " "
+ramp-volume-1 = " "
+ramp-volume-2 = " "
+ramp-volume-3 = " "
+ramp-volume-4 = " "
+ramp-volume-5 = " "
+ramp-volume-6 = " "
+ramp-volume-7 = " "
+ramp-volume-8 = " "
+ramp-volume-9 = " "
+ramp-volume-font = 2
+ramp-volume-foreground = ${color.pink}
+ramp-volume-background = ${color.background}
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/tv2]
+type = internal/date
+interval = 1
+format-margin = 0
+time = "%I:%M %p"
+time-alt = "%A, %m/%d/%y"
+
+format-prefix =" "
+format-prefix-foreground = ${color.blue}
+format-prefix-background = ${color.background}
+
+label = %time%
+label-foreground = ${color.hd}
+label-background = ${color.background}
+label-padding = 0
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/lv2]
+type=custom/text
+content = 
+content-font = 3
+content-foreground= ${color.blue}
+content-background = ${color.background} 
+content-padding=1
+click-left=kitty
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/v2n]
+type = internal/network
+interface = wlan0
+
+[module/nv2]
+type = internal/network
+interface = wlan0
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <ramp-signal><label-connected>
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "睊 "
+format-disconnected-prefix-font = 2
+;;format-disconnected-foreground = ${color.orange}
+;;format-disconnected-background = ${color.background}
+
+label-connected = "%{A1:def-nmdmenu &:}%essid%%{A}"
+label-disconnected = "%{A1:def-nmdmenu &:}Offline%{A}"
+
+label-connected-foreground = ${color.dv}
+label-disconnected-foreground = ${color.dv}
+
+label-connected-background = ${color.background}
+label-disconnected-background = ${color.background}
+
+ramp-signal-0 = "﬉ "
+ramp-signal-1 = "﬉ "
+ramp-signal-2 = "﬉ "
+ramp-signal-3 = "﬉ "
+ramp-signal-4 = "﬉ "
+ramp-signal-foreground = ${color.orange}
+ramp-signal-background = ${color.background}
+ramp-signal-font = 2.8
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mpd2]
+type = internal/mpd
+
+;;host = 127.0.0.1
+;;port = 6600
+;;password = mysecretpassword
+
+interval = 2
+
+format-online = <icon-prev> <toggle> <icon-next>
+format-online-prefix = " "
+
+
+format-playing = ${self.format-online}
+format-paused = <toggle> <label-song>
+
+format-offline = <label-offline>
+format-offline-prefix = ""
+
+label-offline = "Offline"
+
+label-song =  "%title%
+label-song-maxlen = 5
+label-song-ellipsis = false
+
+icon-play = 
+icon-play-font = 1
+
+icon-pause = 
+icon-pause-font = 1
+
+icon-stop = 
+
+icon-prev = 玲
+icon-prev-font = 1
+
+icon-next = 怜
+icon-next-font = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/bl2]
+type = internal/xbacklight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/backlight/
+card = intel_backlight
+
+format = <ramp> <label>
+format-background = ${color.orange}
+
+label = %percentage%%
+label-foreground = ${color.background}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.background}
+
+[module/b2]
+type = internal/backlight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/brightness/
+card = intel_backlight
+
+enable-scroll = true
+
+format = <ramp> <label>
+format-background = ${color.background}
+format-padding = 1
+
+label = %percentage%%
+label-foreground = ${color.dv}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.purple}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
