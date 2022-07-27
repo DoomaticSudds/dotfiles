@@ -149,6 +149,18 @@ ________________________________________________________________________________
 ![Screenshot from 2022-07-19 18-37-35](https://user-images.githubusercontent.com/109631397/179865883-8fca5407-0f73-42e0-ac8f-09b1c731fdfc.png)
 ![Screenshot from 2022-07-20 11-10-10](https://user-images.githubusercontent.com/109631397/180031250-c79aaf3b-b602-4c4f-aa37-7ee9567ea1e5.png)
 ![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
+
+________________________________________________________________________________________________________________________________________________________
+
+# Pywal Screenshots (Read the Help/Quickguide to see how to enable Pywal for polybar and for the terminal)
+
+![p1](https://user-images.githubusercontent.com/109631397/181343753-168d57d3-78a0-4551-af91-2ece13fbcb23.png)
+![p2](https://user-images.githubusercontent.com/109631397/181343773-2bd442b2-ddc7-4b9d-bc5c-1284840ec946.png)
+![p3](https://user-images.githubusercontent.com/109631397/181343782-5d84eddd-fede-4425-96b7-70f13470844e.png)
+![p4](https://user-images.githubusercontent.com/109631397/181343797-875f9a7e-c8b3-4e35-993b-6c1167e72f87.png)
+![p5](https://user-images.githubusercontent.com/109631397/181343801-502331fe-29cb-4dfe-858e-8d78d4b02860.png)
+![p6](https://user-images.githubusercontent.com/109631397/181343810-0fce9194-50c5-4bf5-8baf-98e6b13bb60a.png)
+
 ________________________________________________________________________________________________________________________________________________________
 
 # Read Bellow if you have issues or Need help.
