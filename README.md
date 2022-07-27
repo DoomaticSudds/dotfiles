@@ -144,23 +144,15 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________
 
 # Screenshots:
-![1](https://user-images.githubusercontent.com/109631397/180031227-edc16dc9-f647-4bda-8feb-df85ade3edab.png)
-
-![Screenshot from 2022-07-19 18-37-35](https://user-images.githubusercontent.com/109631397/179865883-8fca5407-0f73-42e0-ac8f-09b1c731fdfc.png)
-![Screenshot from 2022-07-20 11-10-10](https://user-images.githubusercontent.com/109631397/180031250-c79aaf3b-b602-4c4f-aa37-7ee9567ea1e5.png)
-![Screenshot from 2022-07-19 18-37-17](https://user-images.githubusercontent.com/109631397/180031302-fe6f59ea-9fb7-4d6e-a5ba-976de2dd3d52.png)
-
+![3](https://user-images.githubusercontent.com/109631397/181388472-7b741cf5-ee11-4f73-9955-505881c1a47f.png)
 ________________________________________________________________________________________________________________________________________________________
 
 # Pywal Screenshots 
 ### (Read the Help/Quickguide to see how to enable Pywal for polybar and for the terminal)
 
-![p1](https://user-images.githubusercontent.com/109631397/181343753-168d57d3-78a0-4551-af91-2ece13fbcb23.png)
-![p2](https://user-images.githubusercontent.com/109631397/181343773-2bd442b2-ddc7-4b9d-bc5c-1284840ec946.png)
-![p3](https://user-images.githubusercontent.com/109631397/181343782-5d84eddd-fede-4425-96b7-70f13470844e.png)
-![p4](https://user-images.githubusercontent.com/109631397/181343797-875f9a7e-c8b3-4e35-993b-6c1167e72f87.png)
-![p5](https://user-images.githubusercontent.com/109631397/181343801-502331fe-29cb-4dfe-858e-8d78d4b02860.png)
-![p6](https://user-images.githubusercontent.com/109631397/181343810-0fce9194-50c5-4bf5-8baf-98e6b13bb60a.png)
+![1](https://user-images.githubusercontent.com/109631397/181388496-a4f1ab60-16db-4550-944f-f60d37d762d3.png)
+![2](https://user-images.githubusercontent.com/109631397/181388514-c88 
+![4](https://user-images.githubusercontent.com/109631397/181388582-db8ba74d-8e7f-4ff8-ad36-b05d7ff6ed90.png)
 
 ________________________________________________________________________________________________________________________________________________________
 
