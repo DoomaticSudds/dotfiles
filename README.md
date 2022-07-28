@@ -217,9 +217,9 @@ ________________________________________________________________________________
 ### Autostart Polybar with Pywal colors:
 - [ ~~Still trying to figure out a efficent way to do it.~~ ]
 
-~~Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources~~
+~~Open /home/USER/.cache/wal/colors.Xresources in perfer text edtior or do cat /home/USER/.cache/wal/colors.Xresources.~~
 
-~~Copy all of the output and put it in your ~/.Xresources file.~~
+~~Copy all of the output and put it in your /home/USER/.Xresources file.~~
 
 mkdir ~/.Xresources
 cp ~/.cache/wal/colors.Xresources ~/.Xresources
