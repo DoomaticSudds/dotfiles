@@ -215,11 +215,14 @@ cat ~/.cache/wal/sequences
 _________________________________________________________________________________________________________________________________________________________
 
 ### Autostart Polybar with Pywal colors:
- - [ Still trying to figure out a efficent way to do it. ]
+- [ ~~Still trying to figure out a efficent way to do it.~~ ]
 
-Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources
+~~Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources~~
 
-Copy all of the output and put it in your ~/.Xresources file.
+~~Copy all of the output and put it in your ~/.Xresources file.~~
+
+mkdir ~/.Xresources
+cp ~/.cache/wal/colors.Xresources ~/.Xresources
 
 _________________________________________________________________________________________________________________________________________________________
 
