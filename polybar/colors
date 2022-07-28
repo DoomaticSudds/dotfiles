@@ -1,0 +1,40 @@
+; ________  ________  ________   _________  ________  ___  ___  ________  _______   ________     
+;|\   ____\|\   __  \|\   ___  \|\___   ___\\   __  \|\  \|\  \|\   ____\|\  ___ \ |\   __  \    
+;\ \  \___|\ \  \|\  \ \  \\ \  \|___ \  \_\ \  \|\  \ \  \\\  \ \  \___|\ \   __/|\ \  \|\  \   
+; \ \_____  \ \   __  \ \  \\ \  \   \ \  \ \ \   __  \ \   __  \ \  \  __\ \  \_|/_\ \  \\\  \  
+;  \|____|\  \ \  \ \  \ \  \\ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \|\  \ \  \_|\ \ \  \\\  \ 
+;    ____\_\  \ \__\ \__\ \__\\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \_______\ \_______\ \_______\
+;   |\_________\|__|\|__|\|__| \|__|    \|__|  \|__|\|__|\|__|\|__|\|_______|\|_______|\|_______|
+;   \|_________|                                                                                 
+                                                                             
+[color]
+
+;;Use pywal for automataic generated color schemes for polybar. If no pywal configuration is found, polybar would fallback to a GruvBox color scheme.
+
+foreground = #aadfbf8e
+background = #aa000000
+
+black       = ${xrdb:color0:#080808}
+white       = ${xrdb:color1:#ea6962}
+red         = ${xrdb:color2:#ea6962}
+orange      = ${xrdb:color3:#e3a84e}
+green       = ${xrdb:color4:#a9b665}
+yellow      = ${xrdb:color5:#FADA5E}
+pink        = ${xrdb:color6:#9E4244}
+grey        = ${xrdb:color7:#868686}
+blue        = ${xrdb:color8:#7daea3}
+purple      = ${xrdb:color9:#9955bb}
+
+darkblue    = ${xrdb:color10:458588}
+darkred     = ${xrdb:color11:#cc241d}
+darkgreen   = ${xrdb:color12:#98971a}
+darkorange  = ${xrdb:color13:#d65d0e}
+darkpurple  = ${xrdb:color14:b16286}
+darkyellow  = ${xrdb:color15:#d79921}
+darkpink    = ${xrdb:color16:#e18e96}
+lightblack  = ${xrdb:color17:#282828}
+
+dv = #d1bea8
+hd = #f0fff0
+
+
