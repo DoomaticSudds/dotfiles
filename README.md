@@ -61,14 +61,15 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo
 ```
 
 
-# ***Optional: Donwloading picom-ibhagwan-git for blurring.***
+# ***Optional: Donwloading picom-ibhagwan-git for blurring, and BetterlockScreen for a lockscreen.***
 
 Arch: 
 ```
-yay -Syu picom-ibhagwan-git
+yay -Syu picom-ibhagwan-git betterlockscreen
 ```
 
 [Fedora and Ubuntu Users can read this to see how to build Picom-ibhagwan](https://github.com/yshui/picom/blob/next/README.md#build).
+[Fedora and Ubuntu Users can read this to see how to install Betterlockscreen](https://github.com/betterlockscreen/betterlockscreen)
 
 _________________________________________________________________________________________________________________________________________________________
 ### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
