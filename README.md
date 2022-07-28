@@ -10,11 +10,12 @@
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
-- [Pre-Installation](https://github.com/Santahgeo/dotfiles#pre-installation)
-- [Creating Directories](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed)
-- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles#applying-dotfiles)
-- [Credits](https://github.com/Santahgeo/dotfiles#credits)
-- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/main/README.md#help-and-quickguide)
+- [Pre-Installation](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#pre-installation)
+- [Creating Directories](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#make-your-directories-if-needed)
+- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#applying-dotfiles)
+- [Screenshots](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#screenshots)
+- [Credits](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#credits)
+- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#help-and-quickguide)
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
