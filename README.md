@@ -223,7 +223,7 @@ ________________________________________________________________________________
 ~~Copy all of the output and put it in your /home/USER/.Xresources file.~~
 
 ```
-mkdir ~/.Xresources
+touch ~/.Xresources
 cp ~/.cache/wal/colors.Xresources ~/.Xresources
 ```
 
