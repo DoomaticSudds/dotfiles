@@ -103,21 +103,21 @@ ________________________________________________________________________________
 
 ```
 
-cp ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
+mv ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
 
-cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm 
+mv ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm 
 
-cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd
+mv ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd
 
-cp ~/dotfiles/dunst/dunstrc ~/.config/dunst
+mv ~/dotfiles/dunst/dunstrc ~/.config/dunst
 
-cp ~/dotfiles/kitty/kitty.conf ~/.config/kitty
+mv ~/dotfiles/kitty/kitty.conf ~/.config/kitty
 
-cp ~/dotfiles/picom/picom.conf ~/.config/picom
+mv ~/dotfiles/picom/picom.conf ~/.config/picom
 
-cp ~/dotfiles/polybar ~/.config/polybar
+mv ~/dotfiles/polybar ~/.config/polybar
 
-cp ~/dotfiles/cava/config ~/.config/cava
+mv ~/dotfiles/cava/config ~/.config/cava
 
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 ```
