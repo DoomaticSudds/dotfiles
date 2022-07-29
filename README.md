@@ -1,10 +1,10 @@
 ```
-#  ____              _        _                      
-# / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___  
-# \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \ 
-#  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_) |
-# |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
-                                    |___/ 'Dotfiles For Bspwm
+  ____              _        _                      
+ / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___  
+ \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \ 
+  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_) |
+ |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
+                                   |___/ 'Dotfiles For Bspwm
 ```                                    
 ### I am u/Siurzu & GodHand Siurzu
 _________________________________________________________________________________________________________________________________________________________
@@ -103,21 +103,21 @@ ________________________________________________________________________________
 
 ```
 
-cp ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
+mv ~/dotfiles/Wallpapers/life.png ~/Pictures/Wallpapers
 
-cp ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm 
+mv ~/dotfiles/bspwm/bspwmrc ~/.config/bspwm 
 
-cp ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd
+mv ~/dotfiles/sxhkd/sxhkdrc ~/.config/sxhkd
 
-cp ~/dotfiles/dunst/dunstrc ~/.config/dunst
+mv ~/dotfiles/dunst/dunstrc ~/.config/dunst
 
-cp ~/dotfiles/kitty/kitty.conf ~/.config/kitty
+mv ~/dotfiles/kitty/kitty.conf ~/.config/kitty
 
-cp ~/dotfiles/picom/picom.conf ~/.config/picom
+mv ~/dotfiles/picom/picom.conf ~/.config/picom
 
-cp ~/dotfiles/polybar ~/.config/polybar
+mv ~/dotfiles/polybar ~/.config/polybar
 
-cp ~/dotfiles/cava/config ~/.config/cava
+mv ~/dotfiles/cava/config ~/.config/cava
 
 sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
 ```
@@ -209,11 +209,13 @@ cat ~/.cache/wal/sequences
 _________________________________________________________________________________________________________________________________________________________
 
 ### Autostart Polybar with Pywal colors:
- - [ Still trying to figure out a efficent way to do it. ]
+ - [ ~~Still trying to figure out a efficent way to do it.~~ ]
 
-Open  ~/.cache/wal/colors.Xresources in perfer text edtior or do cat ~/.cache/wal/colors.Xresources
+Open your terminal and type
 
-Copy all of the output and put it in your ~/.Xresources file.
+```
+cp ~/.cache/wal/colors.Xresources ~/.Xresources
+```
 
 _________________________________________________________________________________________________________________________________________________________
 
