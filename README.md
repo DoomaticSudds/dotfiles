@@ -72,7 +72,7 @@ yay -S picom-jonaburg
 #select which ever one says picom-jonaburg.
 ```
 
-[Fedora and Ubuntu Users can read this to see how to build Picom-ibhagwan](https://github.com/yshui/picom/blob/next/README.md#build).
+[Fedora and Ubuntu Users can read this to see how to build Picom-ibhagwan](https://github.com/jonaburg/picom#installation-of-this-fork).
 
 _________________________________________________________________________________________________________________________________________________________
 ### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
