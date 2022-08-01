@@ -4,7 +4,7 @@
 [general]
 
 # Smoothing mode. Can be 'normal', 'scientific' or 'waves'. DEPRECATED as of 0.6.0
-mode = scientific
+; mode = waves
 
 # Accepts only non-negative values.
 ; framerate = 60
@@ -91,7 +91,7 @@ mode = scientific
 #  in graphic mode. It only support the 3000 series graphical VFDs for now.
 #
 # 'sdl' uses the Simple DirectMedia Layer to render in a graphical context.
-; method = ncurses
+method = ncurses
 
 # Visual channels. Can be 'stereo' or 'mono'.
 # 'stereo' mirrors both channels with low frequencies in center.
@@ -106,10 +106,10 @@ mode = scientific
 ; raw_target = /dev/stdout
 
 # Raw data format. Can be 'binary' or 'ascii'.
- data_format = ascii
+; data_format = binary
 
 # Binary bit format, can be '8bit' (0-255) or '16bit' (0-65530).
- bit_format = 16bit
+; bit_format = 16bit
 
 # Ascii max value. In 'ascii' mode range will run from 0 to value specified here
 ; ascii_max_range = 1000
@@ -164,8 +164,8 @@ mode = scientific
 ; integral = 77
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
-; monstercat = 1
-; waves = 1
+; monstercat = 0
+; waves = 0
 
 # Set gravity percentage for "drop off". Higher values means bars will drop faster.
 # Accepts only non-negative values. 50 means half gravity, 200 means double. Set to 0 to disable "drop off".
