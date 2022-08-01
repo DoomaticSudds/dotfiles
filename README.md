@@ -52,21 +52,24 @@ sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-ner
 
 Ubuntu:
 ```
-sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemo
+sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemo libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev meson
+
 ```
 
 
 Fedora: 
 ```
-sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo
+sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo dbus-devel gcc git libconfig-devel libdrm-devel libev-devel libX11-devel libX11-xcb libXext-devel libxcb-devel mesa-libGL-devel meson pcre-devel pixman-devel uthash-devel xcb-util-image-devel xcb-util-renderutil-devel xorg-x11-proto-devel
+
 ```
 
 
-# ***Optional: Donwloading picom-ibhagwan-git for blurring.***
+# ***Optional: Donwloading picom-jonaburg-git for blurring and animations.***
 
 Arch: 
 ```
-yay -Syu picom-ibhagwan-git
+yay -S picom-jonaburg
+#select which ever one says picom-jonaburg.
 ```
 
 [Fedora and Ubuntu Users can read this to see how to build Picom-ibhagwan](https://github.com/yshui/picom/blob/next/README.md#build).
@@ -75,6 +78,13 @@ ________________________________________________________________________________
 ### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
 
 ### Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
+
+# Cloning This Branch:
+
+Open your terminal and type:
+```
+git clone --branch BspwmV2 https://github.com/Santahgeo/dotfiles.git
+```
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
 ```
