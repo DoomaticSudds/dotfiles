@@ -11,6 +11,7 @@ ________________________________________________________________________________
 
 Jump To: 
 - [Pre-Installation](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#pre-installation)
+- [Cloning the Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#cloning-this-branch)
 - [Creating Directories](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#make-your-directories-if-needed)
 - [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#applying-dotfiles)
 - [Screenshots](https://github.com/Santahgeo/dotfiles/tree/BspwmV2#screenshots)
