@@ -90,8 +90,6 @@ ________________________________________________________________________________
 ```
 mkdir ~/.config/bspwm
 
-mkdir ~/.config/polybar
-
 mkdir ~/.config/dunst
 
 mkdir ~/.config/kitty
@@ -125,7 +123,7 @@ mv ~/dotfiles/kitty/kitty.conf ~/.config/kitty
 
 mv ~/dotfiles/picom/picom.conf ~/.config/picom
 
-mv ~/dotfiles/polybar ~/.config/polybar
+mv ~/dotfiles/polybar ~/.config/
 
 mv ~/dotfiles/cava/config ~/.config/cava
 
