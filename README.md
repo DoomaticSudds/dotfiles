@@ -4,9 +4,11 @@
  \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \ 
   ___) | (_| | | | | || (_| | | | | (_| |  __/ (_) |
  |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
-                                    |___/ 'Dotfiles For Bspwm
+                                   |___/ 'Dotfiles For Bspwm
 ```   
 I am u/Siurzu /\ GodHand Siurzu
+
+# See my [second branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2) of my BSPWM rices for more updated themes. Updates such as powermenus, new rofi themes and different polybar can be found in my [Second Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2)
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
