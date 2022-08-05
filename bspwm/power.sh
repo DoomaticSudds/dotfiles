@@ -18,7 +18,7 @@ case $opt in
 		systemctl reboot
 		;;
 	$lock)
-		i3lock
+		i3lock -i ~/Pictures/Wallpapers/car.png -F --clock  --blur=sigma
 		;;
 	$suspend)
 		mpc -q pause
