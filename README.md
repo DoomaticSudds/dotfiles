@@ -138,7 +138,13 @@ ________________________________________________________________________________
 
 # Credits:
 
-[Rofi Configuration](https://github.com/yuky2020/rofi-themes)
+~~[Rofi Configuration](https://github.com/yuky2020/rofi-themes)~~
+
+Rofi Configurations Based on:
+
+[Default theme, And Orginal rofi theme for my first BSPWM Rice](https://github.com/yuky2020/rofi-themes)
+- and 
+[Catppuccin Rofi Theme](https://github.com/catppuccin/rofi)
 
 [Neofetch Configuration](https://github.com/Chick2D/neofetch-themes)
 
@@ -164,6 +170,9 @@ ________________________________________________________________________________
 
 # Screenshots:
 ![3](https://user-images.githubusercontent.com/109631397/181388472-7b741cf5-ee11-4f73-9955-505881c1a47f.png)
+![Screenshot from 2022-08-04 20-15-33](https://user-images.githubusercontent.com/109631397/182981576-8907cc19-0a11-421e-b300-36e91a825e50.png)
+![Screenshot from 2022-08-02 09-55-58](https://user-images.githubusercontent.com/109631397/182981606-0e218663-8871-48dd-90f2-440ce9d8221c.png)
+
 ________________________________________________________________________________________________________________________________________________________
 
 # Pywal Screenshots 
