@@ -69,8 +69,7 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo dbus-devel g
 
 Arch: 
 ```
-yay -S picom-jonaburg
-#select which ever one says picom-jonaburg.
+yay -Syu picom-jonaburg-git
 ```
 
 [Fedora and Ubuntu Users can read this to see how to build Picom-Jonaburg](https://github.com/jonaburg/picom#installation-of-this-fork).
@@ -176,6 +175,8 @@ ________________________________________________________________________________
 ![3](https://user-images.githubusercontent.com/109631397/181388472-7b741cf5-ee11-4f73-9955-505881c1a47f.png)
 ![Screenshot from 2022-08-04 20-15-33](https://user-images.githubusercontent.com/109631397/182981576-8907cc19-0a11-421e-b300-36e91a825e50.png)
 ![Screenshot from 2022-08-02 09-55-58](https://user-images.githubusercontent.com/109631397/182981606-0e218663-8871-48dd-90f2-440ce9d8221c.png)
+![Screenshot from 2022-08-05 09-39-22](https://user-images.githubusercontent.com/109631397/183100356-03b41cf3-a19c-4739-a85d-41b19d720fcd.png)
+
 
 ________________________________________________________________________________________________________________________________________________________
 
