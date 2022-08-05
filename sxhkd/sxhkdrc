@@ -19,17 +19,19 @@ super + BackSpace
 #super + p
 	#clipmenud  
 
+super + shift + w
+	brave-browser
 
 #Screnshot
-#Print
-	#gnome-screenshot
+Print
+	gnome-screenshot
 
 # terminal emulator
 super + Return
 	kitty
 
-#super + x
-	#rofi-power-menu
+super + x
+	~/.config/bspwm/power.sh
 
 #ctrl + alt + l
 	#betterlockscreen -l dim
@@ -197,10 +199,10 @@ XF86MonBrightnessDown
         xbacklight -dec 2
 
 XF86AudioRaiseVolume
-        pactl set-sink-volume 0 +5%
+        pactl set-sink-volume 0 +2%
 
 XF86AudioLowerVolume
-        pactl set-sink-volume 0 -5%
+        pactl set-sink-volume 0 -2%
 
 XF86AudioMute
     pactl set-sink-mute 0 toggle
