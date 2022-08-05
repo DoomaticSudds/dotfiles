@@ -28,8 +28,8 @@ super + BackSpace
 super + Return
 	kitty
 
-#super + x
-	#rofi-power-menu
+super + x
+	~/.config/bspwm/power.sh
 
 #ctrl + alt + l
 	#betterlockscreen -l dim
