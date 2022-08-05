@@ -142,9 +142,13 @@ ________________________________________________________________________________
 
 Rofi Configurations Based on:
 
-[Default theme, And Orginal rofi theme for my first BSPWM Rice](https://github.com/yuky2020/rofi-themes)
-- and 
+______________________________________________________________________________________________________________
+[Default theme, and orginal rofi theme for my first BSPWM Rice](https://github.com/yuky2020/rofi-themes)
+
+And.....
+
 [Catppuccin Rofi Theme](https://github.com/catppuccin/rofi)
+______________________________________________________________________________________________________________
 
 [Neofetch Configuration](https://github.com/Chick2D/neofetch-themes)
 
