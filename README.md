@@ -8,7 +8,7 @@
 ```   
 I am u/Siurzu /\ GodHand Siurzu
 
-# See my [second branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2) of my BSPWM rices for more updated themes. Updates such as powermenus, new rofi themes and different polybar can be found in my [Second Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2)
+### See my [second branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2) of my BSPWM rices for more updated themes. Updates such as powermenus, new rofi themes and different polybar can be found in my [Second Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2)
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
