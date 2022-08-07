@@ -83,7 +83,7 @@ ________________________________________________________________________________
 
 Open your terminal and type:
 ```
-git clone --branch BspwmV2 https://github.com/Santahgeo/dotfiles.git
+git clone --branch BspwmTokyo https://github.com/santahgeo/dotfiles.git
 ```
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
