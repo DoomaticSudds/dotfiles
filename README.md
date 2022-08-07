@@ -27,15 +27,15 @@ Bar: Polybar
 
 Launcher Rofi
 
-Distro: Arch Linux
+Distro: Fedora Linux
 
-Gtk Theme: ~~Gruvbox~~ Colloid Dark (I changed my Gtk theme, as you can see in my Pywal Screenshots)
+Gtk Theme: Gruvbox
 
-Colorscheme: Gruvbox (I edited up a little to flow with some of my wallpapers)
+Colorscheme: Tokyo Night (I edited up a little to flow with some of my wallpapers)
 
 Music Player: MPD/Ncmpcpp
 
-Main Web Browser: Firefox with Gnome Empathy theme
+Main Web Browser: Brave
 
 File Manager: Nemo
 
@@ -174,20 +174,10 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________
 
 # Screenshots:
-![3](https://user-images.githubusercontent.com/109631397/181388472-7b741cf5-ee11-4f73-9955-505881c1a47f.png)
-![Screenshot from 2022-08-04 20-15-33](https://user-images.githubusercontent.com/109631397/182981576-8907cc19-0a11-421e-b300-36e91a825e50.png)
-![Screenshot from 2022-08-02 09-55-58](https://user-images.githubusercontent.com/109631397/182981606-0e218663-8871-48dd-90f2-440ce9d8221c.png)
-![Screenshot from 2022-08-05 09-39-22](https://user-images.githubusercontent.com/109631397/183100356-03b41cf3-a19c-4739-a85d-41b19d720fcd.png)
+![Screenshot from 2022-08-07 17-51-31](https://user-images.githubusercontent.com/109631397/183314612-b484b002-249f-47f9-b6eb-48ddb64aaccd.png)
+![Screenshot from 2022-08-07 17-52-02](https://user-images.githubusercontent.com/109631397/183314614-0c800b21-750e-4e3b-8ab3-06663cc4a0f4.png)
 
-
-________________________________________________________________________________________________________________________________________________________
-
-# Pywal Screenshots 
-### (Read the Help/Quickguide to see how to enable Pywal for polybar and for the terminal)
-
-![1](https://user-images.githubusercontent.com/109631397/181388496-a4f1ab60-16db-4550-944f-f60d37d762d3.png)
-![4](https://user-images.githubusercontent.com/109631397/181388582-db8ba74d-8e7f-4ff8-ad36-b05d7ff6ed90.png)
-![2](https://user-images.githubusercontent.com/109631397/181388717-d003929d-b311-47e0-98b8-f7fe0155e2c8.png)
+![Screenshot from 2022-08-07 18-13-25](https://user-images.githubusercontent.com/109631397/183314747-2186f8d7-96b0-4b04-8c81-743cbf52a15b.png)
 
 
 ________________________________________________________________________________________________________________________________________________________
