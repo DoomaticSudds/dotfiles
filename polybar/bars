@@ -1,0 +1,81 @@
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|
+;         Github: https://github.com/Santahgeo        |
+;  ____              _        _                       |
+; / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___   |
+; \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \  |
+;  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_)|  |
+; |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/  |
+;                                   |___/             |
+; Orginal Rice: https://github.com/Santahgeo/dotfiles |
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|                                                                                                                                                                                                                                                                                                                           
+
+[bar/tokyo]
+
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+#width = 98%
+
+height = 20
+
+#offset-x = 1%
+offset=x = 0%
+
+#offset-y = 5
+offset-y = 0
+
+background = ${color.background}
+foreground = ${color.foreground}
+
+#radius-top = 1.0
+radius-top = 0
+
+radius-bottom = 1.0
+#radius-bottom = 0
+
+line-size = 1
+line-color = ${color.line}
+
+border-size = 4
+border-color = ${color.background}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=10;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+
+modules-left = lv2 dot cp2 pot mv2 pot fv2 dot
+modules-center = LD wv2 RD
+modules-right = nv2 pot vv2 pot b2 pot bv2 dot tv2 spacing
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 16
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 0
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = 
+cursor-scroll =  

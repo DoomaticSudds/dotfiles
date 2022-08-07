@@ -1,0 +1,488 @@
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|
+;         Github: https://github.com/Santahgeo        |
+;  ____              _        _                       |
+; / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___   |
+; \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \  |
+;  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_)|  |
+; |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/  |
+;                                   |___/             |
+; Orginal Rice: https://github.com/Santahgeo/dotfiles |
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|                   
+
+[module/xwin2]
+type = internal/xwindow
+label = %title:0:60:...%
+label-maxlen = 15
+label-ellipsis = true
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/cp2]
+type = internal/cpu
+interval = 2
+format-prefix = "  "
+format-padding = 0
+format-prefix-foreground = ${color.lightblack}
+format-foreground = ${color.dv}
+format-background = ${color.bgb}
+label = "%{A1:terminal -e gtop &:}%percentage%% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mv2]
+type = internal/memory
+
+interval = 1
+
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${color.lightblack}
+format-foreground = ${color.dv}
+format-background = ${color.bgr}
+
+label = "%{A1:terminal -e htop &:} %mb_used% %{A}"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/fv2]
+type = internal/fs
+
+mount-0 = /
+interval = 30
+fixed-values = true
+
+format-mounted = <label-mounted>
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${color.lightblack}
+format-mounted-prefix-background = ${color.bgpu}
+
+format-unmounted = <label-unmounted>
+format-unmounted-prefix = " "
+format-unmounted-prefix-foreground = ${color.lightblack}
+format-unmounted-prefix-background = ${color.bgpu}
+
+label-mounted = "%{A1:terminal -e ncdu &:} %free%%{A} "
+label-unmounted = " %mountpoint%: NA "
+label-mounted-foreground = ${color.dv}
+
+label-mounted-background = ${color.bgpu}
+label-unmounted-background = ${color.bgpu}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/wv2]
+type = internal/xworkspaces
+
+pin-workspaces = false
+inline-mode = true
+
+enable-click = true
+enable-scroll = true
+reverse-scroll = true
+
+fuzzy-match = true
+
+icon-0 = 1;
+icon-1 = 2;
+icon-2 = 3;
+icon-3 = 4;
+icon-4 = 5;
+icon-5 = 6;卵
+icon-6 = 7;
+icon-default = 
+
+format = <label-state>
+
+label-monitor = " %name% " 
+
+label-active = "%icon%"
+label-active-background = ${color.ws}
+label-active-foreground = ${color.active}
+label-active-underline = ${color.line}
+
+label-occupied = "%icon%"
+label-occupied-foreground = ${color.blue}
+label-occupied-background = ${color.ws}
+
+label-urgent = "%icon%"
+label-urgent-foreground = ${color.ws}
+label-urgent-background = ${color.ws}
+label-urgent-underline = ${color.line}
+
+label-empty = "%icon%"
+label-empty-background = ${color.ws}
+label-empty-foreground = ${color.e}
+;label-empty = %icon% if you want to ws icons for empty workspaces
+
+label-active-padding = 1
+label-urgent-padding = 1
+label-occupied-padding = 1
+label-empty-padding = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/bv2]
+type = internal/battery
+
+full-at = 99
+
+battery = ${system.battery}
+adapter = ${system.adapter}
+
+poll-interval = 2
+time-format = %H:%M
+
+format-charging = <animation-charging><label-charging>
+format-charging-prefix = 
+
+format-discharging = <ramp-capacity><label-discharging>
+
+format-full = <label-full>
+format-full-prefix = " "
+format-full-prefix-font = 2
+format-full-prefix-foreground = ${color.lightblack}
+format-full-prefix-background = ${color.bgg}
+
+label-charging = "%percentage%% "
+label-discharging = "%percentage%% "
+label-full = "%percentage%% "
+
+label-charging-background = ${color.bgg}
+label-discharging-background = ${color.bgg}
+label-full-background = ${color.bgg}
+
+label-charging-foreground = ${color.dv}
+label-discharging-foreground = ${color.dv}
+label-full-foreground = ${color.dv}
+
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
+ramp-capacity-3 = "  "
+ramp-capacity-4 = "  "
+ramp-capacity-font = 2
+ramp-capacity-foreground = ${color.lightblack}
+ramp-capacity-background = ${color.bgg}
+
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-3 = "  "
+animation-charging-4 = "  "
+animation-charging-font = 2
+animation-charging-foreground = ${color.blue}
+animation-charging-background = ${color.bgg}
+animation-charging-framerate = 750
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/vv2]
+type = internal/pulseaudio
+
+use-ui-max = false
+
+interval = 5
+
+format-volume = <ramp-volume><label-volume>
+
+format-muted = <label-muted>
+format-muted-prefix = "  "
+format-muted-prefix-font = 2
+format-muted-prefix-foreground = ${color.lightblack}
+format-muted-prefix-background = ${color.bgp}
+
+label-volume = "%percentage%% "
+label-muted = "Mute"
+
+label-volume-background = ${color.bgp}
+label-muted-background = ${color.bgp}
+
+label-volume-foreground = ${color.dv}
+label-muted-foreground = ${color.dv}
+
+ramp-volume-0 = "  "
+ramp-volume-1 = "  "
+ramp-volume-2 = "  "
+ramp-volume-3 = "  "
+ramp-volume-4 = "  "
+ramp-volume-5 = "  "
+ramp-volume-6 = "  "
+ramp-volume-7 = "  "
+ramp-volume-8 = "  "
+ramp-volume-9 = "  "
+ramp-volume-font = 2
+ramp-volume-foreground = ${color.lightblack}
+ramp-volume-background = ${color.bgp}
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/tv2]
+type = internal/date
+interval = 1
+format-margin = 0
+time = "%I:%M %p"
+time-alt = "%A, %m/%d/%y"
+
+format-prefix ="  "
+format-prefix-foreground = ${color.lightblack}
+format-prefix-background = ${color.time}
+
+label = "%time% "
+label-foreground = ${color.lightblack}
+label-background = ${color.time}
+label-padding = 0
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/lv2]
+type=custom/text
+content = 
+content-font = 2
+content-foreground= ${color.blue}
+content-background = ${color.background} 
+content-padding=1
+click-left=kitty
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/v2n]
+type = internal/network
+interface = wlp0s21f0u2
+click-left=kitty
+enable-click = true
+
+[module/nv2]
+type = internal/network
+interface = wlp0s21f0u2
+
+interval = 1.0
+accumulate-stats = true
+unknown-as-up = true
+
+format-connected = <ramp-signal><label-connected>
+
+format-disconnected = <label-disconnected>
+format-disconnected-prefix = "睊 "
+format-disconnected-prefix-font = 2
+;;format-disconnected-foreground = ${color.lightblack}
+;;format-disconnected-background = ${color.bgo}
+
+label-connected = "%{A1:def-nmdmenu &:}%essid%%{A} "
+label-disconnected = "%{A1:def-nmdmenu &:}Offline%{A} "
+
+label-connected-foreground = ${color.dv}
+label-disconnected-foreground = ${color.dv}
+
+label-connected-background = ${color.bgo}
+label-disconnected-background = ${color.bgo}
+
+ramp-signal-0 = " ﬉ "
+ramp-signal-1 = " ﬉ "
+ramp-signal-2 = " ﬉ "
+ramp-signal-3 = " ﬉ "
+ramp-signal-4 = " ﬉ "
+ramp-signal-foreground = ${color.lightblack}
+ramp-signal-background = ${color.bgo}
+ramp-signal-font = 2.8
+click-left=kitty
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mpd2]
+type = internal/mpd
+
+;;host = 127.0.0.1
+;;port = 6600
+;;password = mysecretpassword
+
+interval = 2
+
+format-online = <icon-prev> <toggle> <icon-next>
+format-online-prefix = " "
+
+
+format-playing = ${self.format-online}
+format-paused = <toggle> <label-song>
+
+format-offline = <label-offline>
+format-offline-prefix = "  "
+format-offline-background = ${color.ws}
+
+label-offline = "Offline "
+label-offline-background = ${color.ws}
+
+label-song =  " %title% "
+label-song-maxlen = 5
+label-song-ellipsis = false
+
+icon-play = 
+icon-play-font = 1
+
+icon-pause = 
+icon-pause-font = 1
+
+icon-stop = 
+
+icon-prev = 玲
+icon-prev-font = 1
+
+icon-next = 怜
+icon-next-font = 1
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/bl2]
+type = internal/xbacklight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/backlight/
+card = intel_backlight
+
+format = <ramp> <label>
+format-background = ${color.orange}
+
+label = %percentage%%
+label-foreground = ${color.background}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.bgy}
+
+[module/b2]
+type = internal/backlight
+
+; Use the following command to list available cards:
+; $ ls -1 /sys/class/brightness/
+card = intel_backlight
+
+enable-scroll = true
+
+format = <ramp> <label>
+format-background = ${color.bgy}
+format-padding = 1
+
+label = %percentage%%
+label-foreground = ${color.dv}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+ramp-5 = 
+ramp-6 = 
+ramp-7 = 
+ramp-8 = 
+ramp-9 = 
+ramp-font = 2
+ramp-foreground = ${color.lightblack}
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/menu-apps]
+type = custom/menu
+
+; If true, <label-toggle> will be to the left of the menu items (default).
+; If false, it will be on the right of all the items.
+expand-right = true
+
+; "menu-LEVEL-N" has the same properties as "label-NAME" with
+; the additional "exec" property
+;
+; Commands will be executed using "/bin/sh -c $COMMAND"
+
+menu-0-0 = Browsers
+menu-0-0-exec = #menu-apps.open.1
+menu-0-1 = Games
+menu-0-1-exec = #menu-apps.open.2
+
+menu-1-0 = Firefox
+menu-1-0-exec = firefox
+menu-1-1 = Brave
+menu-1-1-exec = brave-browser-bin
+
+
+menu-2-0 = Games
+menu-2-0-exec = #menu-apps.open.1
+menu-2-1 = Katawa Shoujo
+menu-2-1-exec = flatpak run com.katawa_shoujo.KatawaShoujo  
+
+; Available tags:
+;   <label-toggle> (default) - gets replaced with <label-(open|close)>
+;   <menu> (default)
+; If expand-right is true, the default will be "<label-toggle><menu>" and the
+; other way around otherwise.
+; Note that if you use <label-toggle> you must also include
+; the definition for <label-open>
+; format = <label-toggle><menu>
+
+label-open = Apps
+label-close = x
+
+; Optional item separator
+; Default: none
+label-separator = |
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/bspwm]
+type = internal/bspwm
+format = <label-mode>
+format-padding = 0
+
+label-focused = %name%
+label-focused-foreground = ${colors.yellow}
+label-focused-background = ${colors.background}
+label-focused-padding = 1
+
+label-occupied = %name%
+label-occupied-foreground = ${colors.yellow}
+label-occupied-background = ${colors.background}
+label-occupied-padding = 1
+
+label-urgent = %name%
+label-urgent-foreground = ${colors.yellow}
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+label-empty = %name%
+label-empty-foreground = ${colors.yellow}
+label-empty-background = ${colors.background}
+label-empty-padding = 1
+
+label-locked = " "
+label-floating = " "
+label-fullscreen = " "
+label-marked = " "
+label-monocle = "ﱡ "
+label-private = " "
+label-pseudotiled = "ﬔ "
+label-sticky = " "
+
+; Separator in between workspaces
+; label-separator = |
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/pot]
+type = custom/text
+;content = 
+content = "|"
+
+content-font = 0
+content-background = ${color.background}
+content-foreground = ${color.background}
+content-padding = 0

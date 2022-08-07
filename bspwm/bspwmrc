@@ -1,0 +1,90 @@
+#! /bin/sh
+
+#### BSPWM AUTOSTART ####
+sxhkd &
+~/.config/polybar/LaunchTokyo.sh &
+xsetroot -cursor_name left_ptr &
+#mpd &
+picom &
+dunst &
+/home/santahgeo/.fehbg &
+picom &
+xinput set-prop 11 321 1 &
+xinput set-prop 11 331 0 &
+/usr/libexec/polkit-gnome-authentication-agent-1 &
+xautolock -time 5 -locker 'i3lock -i ~/Pictures/Wallpapers/car.png -F --clock  --blur=sigmat' &
+# picom --config ~/.config/picom/picom.conf &
+# xsetroot -cursor_name left_ptr &
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+
+#Arch
+# xinput set-prop 11 316 1
+# xinput set-prop 11 326 0
+#Arch 2
+# xinput set-prop 11 317 1
+# xinput set-prop 11 327 0
+# Fedora
+# xinput set-prop 11 321 1
+# xinput set-prop 11 331 0
+
+bspc monitor -d 1 2 3 4 5 6 7
+
+#### BSPWM coloring ####
+bspc config normal_border_color		      "#e5e9f0"
+bspc config active_border_color	              "#ffcc33"
+bspc config focused_border_color	      "#2492e0"
+bspc config presel_feedback_color	      "#b48ead"
+bspc config urgent_border_color 	      "#ff4040"
+
+#### BSPWM configuration ####
+bspc config border_radius                 8
+bspc config border_width                  2
+bspc config window_gap                    10
+bspc config top_padding                   34
+bspc config bottom_padding                0
+bspc config left_padding                  0
+bspc config right_padding                 0
+bspc config single_monocle                false
+bspc config click_to_focus                false
+bspc config split_ratio                   0.52
+bspc config borderless_monocle            true
+bspc config gapless_monocle               true
+bspc config focus_by_distance             true
+bspc config focus_follows_pointer         true
+bspc config history_aware_focus           true
+bspc config remove_disabled_monitors      true
+bspc config merge_overlapping_monitors    true
+bspc config pointer_modifier mod4
+bspc config pointer_action1 move
+bspc config pointer_action2 resize_side
+bspc config pointer_action3 resize_corner
+
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+#bspc rule -a mpv state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a com.katawa_shoujo.KatawaShoujo  state=floating
+
+#polybar hidden when fullscreen for vlc, youtube, mpv ...
+#find out the name of your monitor with xrandr
+xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_DisplayPort-0)
+xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_DisplayPort-1)
+xdo below -t $(xdo id -n root) $(xdo id -a polybar-main_HDMI-A-0)
+
+# ________  ________  ________   _________  ________  ___  ___  ________  _______   ________     
+#|\   ____\|\   __  \|\   ___  \|\___   ___\\   __  \|\  \|\  \|\   ____\|\  ___ \ |\   __  \    
+#\ \  \___|\ \  \|\  \ \  \\ \  \|___ \  \_\ \  \|\  \ \  \\\  \ \  \___|\ \   __/|\ \  \|\  \   
+# \ \_____  \ \   __  \ \  \\ \  \   \ \  \ \ \   __  \ \   __  \ \  \  __\ \  \_|/_\ \  \\\  \  
+#  \|____|\  \ \  \ \  \ \  \\ \  \   \ \  \ \ \  \ \  \ \  \ \  \ \  \|\  \ \  \_|\ \ \  \\\  \ 
+#    ____\_\  \ \__\ \__\ \__\\ \__\   \ \__\ \ \__\ \__\ \__\ \__\ \_______\ \_______\ \_______\
+#   |\_________\|__|\|__|\|__| \|__|    \|__|  \|__|\|__|\|__|\|__|\|_______|\|_______|\|_______|
+#   \|_________|                                                                                 
+#                    
