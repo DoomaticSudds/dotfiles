@@ -9,6 +9,18 @@
 ; Orginal Rice: https://github.com/Santahgeo/dotfiles |
 ;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|                                                                           
 
+
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|
+;         Github: https://github.com/Santahgeo        |
+;  ____              _        _                       |
+; / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___   |
+; \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \  |
+;  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_)|  |
+; |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/  |
+;                                   |___/             |
+; Orginal Rice: https://github.com/Santahgeo/dotfiles |
+;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-|                                                                           
+
 [color]
 
 
@@ -18,17 +30,17 @@ background = #171A1B
 foreground = #dfbf8e
 
 ;;  Backgrounds for Mods
-bgr = #aaf7768e
-bgo = #aaffb347
-bgy = #aaFADA5E
-bgpu = #aaad8ee6
-bgp = #aabb9af7
-bgg = #aa9ece6a
-bgb = #aa7aa2f7
-blue = #8ab9f1
-charg = #85ce6a
+bgr = ${xrdb:color1:#aaf7768e}
+bgo = ${xrdb:color3:#aaffb347}
+bgy = ${xrdb:color3:#aaFADA5E}
+bgpu = ${xrdb:color13:#aaad8ee6}
+bgp = ${xrdb:color5:#aabb9af7}
+bgg = ${xrdb:color10:#aa9ece6a}
+bgb = ${xrdb:color4:#aa7aa2f7}
+blue = ${xrdb:color6:#8ab9f1}
+charg = ${xrdb:color12:#85ce6a}
 lightblack  = #282828
-line = #BF616A
+line = ${xrdb:color14:#BF616A}
 
 
 
@@ -37,9 +49,16 @@ dv = #1a2421
 t = #D8DEE9
 e = #6F7787
 ws = 2E3031
-time = #e25b66
+time = ${xrdb:color9:#e25b66}
 time2 = #e2725b
 active = #A3BE8C
+
+
+
+
+
+
+
 
 
 
