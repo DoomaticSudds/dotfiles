@@ -137,40 +137,40 @@ format-charging-prefix =
 format-discharging = <ramp-capacity><label-discharging>
 
 format-full = <label-full>
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-font = 2
-format-full-prefix-foreground = ${color.green}
-format-full-prefix-background = ${color.background}
+format-full-prefix-foreground = ${color.lightblack}
+format-full-prefix-background = ${color.bgg}
 
-label-charging = %percentage%%
-label-discharging = %percentage%%
-label-full = %percentage%%
+label-charging = "%percentage%% "
+label-discharging = "%percentage%% "
+label-full = "%percentage%% "
 
-label-charging-background = ${color.background}
-label-discharging-background = ${color.background}
-label-full-background = ${color.background}
+label-charging-background = ${color.lightblack}
+label-discharging-background = ${color.bgg}
+label-full-background = ${color.bgg}
 
-label-charging-foreground = ${color.dv}
+label-charging-foreground = ${color.bgg}
 label-discharging-foreground = ${color.dv}
 label-full-foreground = ${color.dv}
 
-ramp-capacity-0 = " "
-ramp-capacity-1 = " "
-ramp-capacity-2 = " "
-ramp-capacity-3 = " "
-ramp-capacity-4 = " "
+ramp-capacity-0 = "  "
+ramp-capacity-1 = "  "
+ramp-capacity-2 = "  "
+ramp-capacity-3 = "  "
+ramp-capacity-4 = "  "
 ramp-capacity-font = 2
-ramp-capacity-foreground = ${color.green}
-ramp-capacity-background = ${color.background}
+ramp-capacity-foreground = ${color.lightblack}
+ramp-capacity-background = ${color.bgg}
 
-animation-charging-0 = " "
-animation-charging-1 = " "
-animation-charging-2 = " "
-animation-charging-3 = " "
-animation-charging-4 = " "
+animation-charging-0 = "  "
+animation-charging-1 = "  "
+animation-charging-2 = "  "
+animation-charging-3 = "  "
+animation-charging-4 = "  "
 animation-charging-font = 2
-animation-charging-foreground = ${color.darkblue}
-animation-charging-background = ${color.background}
+animation-charging-foreground = ${color.bgg}
+animation-charging-background = ${color.lightblack}
 animation-charging-framerate = 750
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
