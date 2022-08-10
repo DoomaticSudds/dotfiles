@@ -11,32 +11,43 @@
 
 [color]
 
-;;Use pywal for automataic generated color schemes for polybar. If no pywal configuration is found, polybar would fallback to a GruvBox color scheme.
 
-foreground = #aadfbf8e
-background = #aa000000
+;; Polybar background and Foreground
+background = ${xrdb:color0:#171A1B}
 
-black       = ${xrdb:color0:#080808}
-white       = ${xrdb:color1:#ea6962}
-red         = ${xrdb:color2:#ea6962}
-orange      = ${xrdb:color3:#e3a84e}
-green       = ${xrdb:color4:#a9b665}
-yellow      = ${xrdb:color5:#FADA5E}
-pink        = ${xrdb:color6:#a8516e}
-grey        = ${xrdb:color7:#868686}
-blue        = ${xrdb:color8:#7daea3}
-purple      = ${xrdb:color9:#9955bb}
+foreground = #dfbf8e
 
-darkblue    = ${xrdb:color10:458588}
-darkred     = ${xrdb:color11:#cc241d}
-darkgreen   = ${xrdb:color12:#98971a}
-darkorange  = ${xrdb:color13:#d65d0e}
-darkpurple  = ${xrdb:color14:b16286}
-darkyellow  = ${xrdb:color15:#d79921}
-darkpink    = ${xrdb:color16:#e18e96}
-lightblack  = ${xrdb:color17:#282828}
+;;  Backgrounds for Mods
+bgr = ${xrdb:color1:#aaf7768e}
+bgo = ${xrdb:color3:#aaffb347}
+bgy = ${xrdb:color3:#aaFADA5E}
+bgpu = ${xrdb:color15:#aaad8ee6}
+bgp = ${xrdb:color5:#aabb9af7}
+bgg = ${xrdb:color10:#aa9ece6a}
+bgb = ${xrdb:color4:#aa7aa2f7}
+blue = ${xrdb:color6:#aa8ab9f1}
+charg = ${xrdb:color12:#9ece6a}
+lightblack  = #282828
+line = ${xrdb:color14:#BF616A}
 
-dv = #d1bea8
+
+
+
+dv = #1a2421
+t = ${xrdb:color7:#aaD8DEE9}
+e = ${xrdb:color8:#c4aead}
+ws = #2E3031
+time = ${xrdb:color9:#aae25b66}
+time2 = #e2725b
+active = ${xrdb:color10:#A3BE8C}
+
+
+
+
+
+
+
+
 
 
 
