@@ -138,7 +138,7 @@ format-charging-prefix =
 format-discharging = <ramp-capacity><label-discharging>
 
 format-full = <label-full>
-format-full-prefix = " "
+format-full-prefix = "  "
 format-full-prefix-font = 2
 format-full-prefix-foreground = ${color.lightblack}
 format-full-prefix-background = ${color.bgg}
@@ -147,11 +147,11 @@ label-charging = "%percentage%% "
 label-discharging = "%percentage%% "
 label-full = "%percentage%% "
 
-label-charging-background = ${color.bgg}
+label-charging-background = ${color.lightblack}
 label-discharging-background = ${color.bgg}
 label-full-background = ${color.bgg}
 
-label-charging-foreground = ${color.dv}
+label-charging-foreground = ${color.bgg}
 label-discharging-foreground = ${color.dv}
 label-full-foreground = ${color.dv}
 
@@ -170,8 +170,8 @@ animation-charging-2 = "  "
 animation-charging-3 = "  "
 animation-charging-4 = "  "
 animation-charging-font = 2
-animation-charging-foreground = ${color.blue}
-animation-charging-background = ${color.bgg}
+animation-charging-foreground = ${color.bgg}
+animation-charging-background = ${color.lightblack}
 animation-charging-framerate = 750
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
