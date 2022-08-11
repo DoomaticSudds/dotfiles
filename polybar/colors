@@ -37,6 +37,15 @@ dv = #1a2421
 t = ${xrdb:color7:#aaD8DEE9}
 e = ${xrdb:color8:#c4aead}
 ws = #2E3031
+dot = #f0ffff
 time = ${xrdb:color9:#aae25b66}
-time2 = #e2725b
+time2 = ${xrdb:color8:#e2725b}
 active = ${xrdb:color10:#A3BE8C}
+
+
+
+
+
+
+
+
