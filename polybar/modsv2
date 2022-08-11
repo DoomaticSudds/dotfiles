@@ -101,7 +101,7 @@ label-active-foreground = ${color.active}
 label-active-underline = ${color.line}
 
 label-occupied = "%icon%"
-label-occupied-foreground = ${color.blue}
+label-occupied-foreground = ${color.bgr}
 label-occupied-background = ${color.ws}
 
 label-urgent = "%icon%"
@@ -192,7 +192,7 @@ format-muted-prefix-foreground = ${color.lightblack}
 format-muted-prefix-background = ${color.bgp}
 
 label-volume = "%percentage%% "
-label-muted = "Mute"
+label-muted = "Mute "
 
 label-volume-background = ${color.bgp}
 label-muted-background = ${color.bgp}
@@ -289,49 +289,6 @@ ramp-signal-foreground = ${color.lightblack}
 ramp-signal-background = ${color.bgo}
 ramp-signal-font = 2.8
 click-left=kitty
-
-;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
-
-[module/mpd2]
-type = internal/mpd
-
-;;host = 127.0.0.1
-;;port = 6600
-;;password = mysecretpassword
-
-interval = 2
-
-format-online = <icon-prev> <toggle> <icon-next>
-format-online-prefix = " "
-
-
-format-playing = ${self.format-online}
-format-paused = <toggle> <label-song>
-
-format-offline = <label-offline>
-format-offline-prefix = "  "
-format-offline-background = ${color.ws}
-
-label-offline = "Offline "
-label-offline-background = ${color.ws}
-
-label-song =  " %title% "
-label-song-maxlen = 5
-label-song-ellipsis = false
-
-icon-play = 
-icon-play-font = 1
-
-icon-pause = 
-icon-pause-font = 1
-
-icon-stop = 
-
-icon-prev = 玲
-icon-prev-font = 1
-
-icon-next = 怜
-icon-next-font = 1
 
 ;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -486,3 +443,156 @@ content-font = 0
 content-background = ${color.background}
 content-foreground = ${color.background}
 content-padding = 0
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/pot2]
+type = custom/text
+;content = 
+content = "| "
+
+content-font = 0
+content-background = ${color.ws}
+content-foreground = ${color.ws}
+content-padding = 0
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mod]
+type = internal/bspwm
+
+format = <label-mode>
+format-background = ${color.bgg}
+format-foreground = ${color.background}
+format-padding = 1
+format-font = 5
+
+label-monocle = "[M]"
+label-tiled = "[]="
+
+label-floating = ", ><>"
+label-pseudotiled = ", Pseudo"
+label-fullscreen = ", Full"
+
+label-locked = " | Locked"
+label-sticky = " | Sticky"
+label-private = " | Private"
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[module/mpd]
+type = internal/mpd
+
+; Host where mpd is running (either ip or domain name)
+; Can also be the full path to a unix socket where mpd is running.
+;;host = 127.0.0.1
+;;port = 6600
+;;password = mysecretpassword
+
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 2
+
+; Available tags:
+;   <label-song> (default)
+;   <label-time>
+;   <bar-progress>
+;   <toggle> - gets replaced with <icon-(pause|play)>
+;   <toggle-stop> - gets replaced with <icon-(stop|play)>
+;   <icon-random>
+;   <icon-repeat>
+;   <icon-repeatone> (deprecated)
+;   <icon-single> - Toggle playing only a single song. Replaces <icon-repeatone>
+;   <icon-consume>
+;   <icon-prev>
+;   <icon-stop>
+;   <icon-play>
+;   <icon-pause>
+;   <icon-next>
+;   <icon-seekb>
+;   <icon-seekf>
+
+format-online = <icon-prev> <toggle> <icon-next>
+;;format-online-prefix = " "
+;;format-online-prefix-font = 2
+;;format-online-prefix-foreground = ${color.GREEN}
+format-online-background = ${color.ws}
+
+format-playing = ${self.format-online}
+format-paused = ${self.format-online}
+format-stopped = ${self.format-online}
+
+; Available tags:
+;   <label-offline>
+format-offline = <label-offline>
+#format-offline-prefix = " "
+format-offline-background = ${color.ws}
+
+; Available tokens:
+;   %artist%
+;   %album-artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+label-song =  "%artist% - %title%"
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+; Available tokens:
+;   %elapsed%
+;   %total%
+; Default: %elapsed% / %total%
+;;abel-time = %elapsed% / %total%
+
+; Available tokens:
+;   None
+label-offline = ""
+
+; Only applies if <icon-X> is used
+icon-play = 
+icon-play-font = 2
+icon-play-foreground = ${color.bgg}
+icon-pause = 
+icon-pause-font = 2
+icon-pause-foreground = ${color.bgg}
+icon-stop = 
+icon-stop-foreground = ${color.bgg}
+icon-prev = 玲
+icon-prev-font = 1
+icon-prev-foreground = ${color.bgg}
+icon-next = 怜
+icon-next-font = 1
+icon-next-foreground = ${color.bgg}
+
+; Used to display the state of random/repeat/repeatone/single
+; Only applies if <icon-[random|repeat|repeatone|single]> is used
+;;toggle-on-foreground = #ff
+;;toggle-off-foreground = #55
+
+;;-----------
+
+[module/song]
+type = internal/mpd
+
+interval = 2
+
+format-online = <label-song>
+format-online-background = ${color.ws}
+format-online-foreground = ${color.e}
+format-online-font = 1
+format-offline = <label-offline>
+format-offline-font = 1
+format-offline-background = ${color.ws}
+format-offline-foreground = ${color.e}
+
+format-playing = ${self.format-online}
+format-paused = "${self.format-online}"
+format-stopped = ""
+
+label-offline =  "Offline"
+label-song =  "%title%"
+label-song-maxlen = 10
+label-song-ellipsis = true
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
