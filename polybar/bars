@@ -60,8 +60,12 @@ font-3 = "Iosevka Nerd Font:size=18;4"
 font-4 = "Source Code Pro Bold:size=13;3"
 
 modules-left = lv2 dot cp2 pot mv2 pot fv2 dot
-modules-center = LD wv2 RD
+;modules-center = LD wv2 RD spacing LD mpd dot2 song RD
+modules-center = LD wv2 RD spacing
 modules-right = nv2 pot vv2 pot b2 pot bv2 dot tv2 spacing
+
+; Remove the ";" around the modules-center line if you want mpd module.
+; After that add ; to the line without the mpd-module, so it won't be read.
 
 spacing = 0
 dim-value = 1.0
@@ -79,3 +83,4 @@ enable-ipc = true
 
 cursor-click = 
 cursor-scroll =  
+
