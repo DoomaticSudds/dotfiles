@@ -9,6 +9,28 @@
 # Keybinds For Bspwm                    
                                                                                                                         
 
+# Mpc/Mpd Stuff
+
+# Pause Music
+super + s
+	mpc pause
+
+# Resume Music
+super + shift + s
+	mpc play
+
+# Skip Song
+super + shift + d
+	mpc next
+
+# Play Previous Song
+super + ctrl + d
+	mpc prev
+
+# Open ncmpcpp on kitty.
+super + n
+	kitty --hold ncmpcpp
+
 # wm independent hotkeys
 
 # File manager
