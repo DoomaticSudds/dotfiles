@@ -70,33 +70,38 @@ super + ctrl + s
 	killall conky
 
 ######################################################
-#  __  __               ____  __           _ 
+# __  __               ____  __           _ 
 # |  \/  |_ __   ___   / /  \/  |_ __   __| |
 # | |\/| | '_ \ / __| / /| |\/| | '_ \ / _` |
 # | |  | | |_) | (__ / / | |  | | |_) | (_| |
 # |_|  |_| .__/ \___/_/  |_|  |_| .__/ \__,_|
+#         |_|                    |_|
 
                                   
 # Mpc/Mpd Stuff
 
 # Pause Song
-super + s
-	mpc pause
+alt + a
+	mpc pause; \
+	notify-send Paused
 
 # Play Song
-super + shift + s
-	mpc play
+alt + shift + a
+	mpc play; \
+	notify-send Resuming....
 
 # Skip Song
-super + shift + d
-	mpc next
+alt + d
+	mpc next; \
+	notify-send "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
 
 # Go to Previous Song
-super + ctrl + d
+alt + shift + d
 	mpc prev
+	notify-send "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
 
 # Open ncmpcpp in Kitty
-super + n
+super + m
 	kitty --hold ncmpcpp
 
 ######################################################
