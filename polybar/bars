@@ -58,6 +58,7 @@ font-1 = "Iosevka Nerd Font:size=12;3"
 font-2 = "Iosevka Nerd Font:size=16;4"
 font-3 = "Iosevka Nerd Font:size=18;4"
 font-4 = "Source Code Pro Bold:size=13;3"
+font-5 = "Senobi Gothic Regular:size=12;3"
 
 modules-left = lv2 dot cp2 pot mv2 pot fv2 dot
 ;modules-center = LD wv2 RD spacing LD mpd dot2 song RD
