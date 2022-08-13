@@ -41,6 +41,7 @@ window {
     border: 3;
     border-color: @border-col;
     background-color: @bg-col;
+    border-radius:               10px;
 }
 
 mainbox {
@@ -96,6 +97,7 @@ element-icon {
 element selected {
     background-color:  @selected-col ;
     text-color: @fg-col2  ;
+     border-radius:               10px;
 }
 
 mode-switcher {
