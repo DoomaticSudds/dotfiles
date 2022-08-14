@@ -10,12 +10,12 @@
 #-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-;-#
 
 ######################################################
-#  ___                        _                    
-# / _ \ _ __   ___ _ __      / \   _ __  _ __  ___ 
-#| | | | '_ \ / _ \ '_ \    / _ \ | '_ \| '_ \/ __|
-#| |_| | |_) |  __/ | | |  / ___ \| |_) | |_) \__ \
-# \___/| .__/ \___|_| |_| /_/   \_\ .__/| .__/|___/
-#      |_|                        |_|   |_|
+#   ___                        _                    
+#  / _ \ _ __   ___ _ __      / \   _ __  _ __  ___ 
+# | | | | '_ \ / _ \ '_ \    / _ \ | '_ \| '_ \/ __|
+# | |_| | |_) |  __/ | | |  / ___ \| |_) | |_) \__ \
+#  \___/| .__/ \___|_| |_| /_/   \_\ .__/| .__/|___/
+#      |_|                          |_|   |_|
 
 # File manager
 super + BackSpace
@@ -55,10 +55,10 @@ ctrl + alt + d
 
 # Alternetive Lock Screen
 ctrl + alt + l
-	betterlockscreen -l -d
+	betterlockscreen -l dim
 
 # Reload Sxhkd
-super + d
+super + shift + d
 	pkill -USR1 -x sxhkd
 
 # Reload Polybar
@@ -83,29 +83,29 @@ super + ctrl + s
 # Pause Song
 alt + a
 	mpc pause; \
-	notify-send Paused
+	notify-send -p Paused
 
 # Play Song
 alt + shift + a
 	mpc play; \
-	notify-send Resuming....
+	notify-send -p Resuming....
 
 # Skip Song
 alt + d
 	mpc next; \
-	notify-send "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
+	notify-send -p "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
 
 # Go to Previous Song
 alt + shift + d
 	mpc prev
-	notify-send "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
+	notify-send -p "$(mpc -f "%artist%" current)" "$(mpc -f "%album%" current)\n$(mpc -f "%title%" current)"
 
 # Open ncmpcpp in Kitty
 super + m
 	kitty --hold ncmpcpp
 
 ######################################################
-# ____                                _   _       _   _                  
+#  ____                                _   _       _   _                  
 # | __ ) ___ _ ____      ___ __ ___   | | | | ___ | |_| | _____ _   _ ___ 
 # |  _ \/ __| '_ \ \ /\ / / '_ ` _ \  | |_| |/ _ \| __| |/ / _ \ | | / __|
 # | |_) \__ \ |_) \ V  V /| | | | | | |  _  | (_) | |_|   <  __/ |_| \__ \
@@ -135,8 +135,19 @@ super + shift + space
 	bspc node -t {floating} || \
 	bspc node -t {tiled}
 
+# (To use different layouts as seen bellow download Bsp-Layout: https://github.com/phenax/bsp-layout)
 
-super + z
+super + a
+	bsp-layout set monocle
+
+super + shift + a
+	bsp-layout set title
+
+alt + g 
+	bsp-layout set grid
+
+alt + shift + g
+	bsp-layout set rgrid
 
 ######################################################
 # ____                                ____                     _           _   
