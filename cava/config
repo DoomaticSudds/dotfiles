@@ -145,11 +145,11 @@ method = ncurses
 # You can define as many as 8 different colors. They range from bottom to top of screen
  gradient = 1
  gradient_count = 5
- gradient_color_1 = '#dfbf8e'
- gradient_color_2 = '#a9b665'
- gradient_color_3 = '#e78a4e'
- gradient_color_4 = '#ea6962'
- gradient_color_5 = '#dfbf8e'
+ gradient_color_1 = '#c4aead'
+ gradient_color_2 = '#76a275'
+ gradient_color_3 = '#deba65'
+ gradient_color_4 = '#72aab9'
+ gradient_color_5 = '#d0676c'
  gradient_color_6 = '#'
  gradient_color_7 = '#'
  gradient_color_8 = '#'
