@@ -18,14 +18,14 @@ background = ${xrdb:color0:#171A1B}
 foreground = #dfbf8e
 
 ;;  Backgrounds for Mods
-bgr = ${xrdb:color1:#aaf7768e}
-bgo = ${xrdb:color3:#aaffb347}
-bgy = ${xrdb:color3:#aaFADA5E}
-bgpu = ${xrdb:color15:#aaad8ee6}
-bgp = ${xrdb:color5:#aabb9af7}
-bgg = ${xrdb:color10:#aa9ece6a}
-bgb = ${xrdb:color4:#aa7aa2f7}
-blue = ${xrdb:color6:#aa8ab9f1}
+bgr = ${xrdb:color1:#d0676c}
+bgo = ${xrdb:color3:#e7b76d}
+bgy = ${xrdb:color3:#deba65}
+bgpu = ${xrdb:color15:#9870af}
+bgp = ${xrdb:color5:#bb9af7}
+bgg = ${xrdb:color10:#76a275}
+bgb = ${xrdb:color4:#72aab9}
+blue = ${xrdb:color6:#8ab9f1}
 charg = ${xrdb:color12:#9ece6a}
 lightblack  = #282828
 line = ${xrdb:color14:#BF616A}
@@ -34,13 +34,21 @@ line = ${xrdb:color14:#BF616A}
 
 
 dv = #1a2421
-t = ${xrdb:color7:#aaD8DEE9}
+t = ${xrdb:color7:#D8DEE9}
 e = ${xrdb:color8:#c4aead}
 ws = #2E3031
 dot = #f0ffff
-time = ${xrdb:color9:#aae25b66}
+time = ${xrdb:color9:#aa485a}
 time2 = ${xrdb:color8:#e2725b}
 active = ${xrdb:color10:#A3BE8C}
+
+
+
+
+
+
+
+
 
 
 
