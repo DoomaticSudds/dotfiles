@@ -94,14 +94,13 @@ icon-default = 
 format = <label-state>
 
 label-monitor = " %name% " 
-
 label-active = "%icon%"
 label-active-background = ${color.ws}
-label-active-foreground = ${color.active}
+label-active-foreground = ${color.bgb}
 label-active-underline = ${color.line}
 
 label-occupied = "%icon%"
-label-occupied-foreground = ${color.bgr}
+label-occupied-foreground = ${color.bgy}
 label-occupied-background = ${color.ws}
 
 label-urgent = "%icon%"
