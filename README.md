@@ -175,7 +175,7 @@ ________________________________________________________________________________
 
 # Screenshots:
 
-![Screenshot from 2022-08-15 15-36-31](https://user-images.githubusercontent.com/109631397/184716876-22d3a3c3-5252-48e2-)
+![Screenshot from 2022-08-15 15-36-31](https://user-images.githubusercontent.com/109631397/184717497-727244c7-a0d6-4edc-b0d6-73bcc440a076.png)
 
 ![Screenshot from 2022-08-15 15-53-26](https://user-images.githubusercontent.com/109631397/184716889-5c3d1024-8a5d-41ba-9c95-8b076f784a8d.png)
 
