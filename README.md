@@ -17,7 +17,7 @@ Jump To:
 - [Applying all themes/configs](https://github.com/Santahgeo/dotfiles#applying-dotfiles)
 - [Credits](https://github.com/Santahgeo/dotfiles#credits)
 - [Screenshots](https://github.com/Santahgeo/dotfiles#screenshots)
-- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/main/README.md#help-and-quickguide)
+- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/tree/main#read-bellow-if-you-have-issues-or-need-help)
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
