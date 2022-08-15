@@ -15,7 +15,7 @@ Jump To:
 - [Creating Directories](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#make-your-directories-if-needed)
 - [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#applying-dotfiles)
 - [Credits](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#credits)
-- [Screenshots](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#screenshots)
+- [Screenshots](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#screenshots)
 - [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#help-and-quickguide)
 _________________________________________________________________________________________________________________________________________________________
 
