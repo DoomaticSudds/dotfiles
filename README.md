@@ -10,13 +10,13 @@
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
-- [Pre-Installation](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#pre-installation)
-- [Cloning the Branch](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#cloning-this-branch)
-- [Creating Directories](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#make-your-directories-if-needed)
-- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#applying-dotfiles)
-- [Credits](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#credits)
+- [Pre-Installation](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#pre-installation)
+- [Cloning the Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#cloning-this-branch)
+- [Creating Directories](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#make-your-directories-if-needed)
+- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#applying-dotfiles)
+- [Credits](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#credits)
 - [Screenshots](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#screenshots)
-- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/BspwmTokyo/README.md#help-and-quickguide)
+- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#read-bellow-if-you-have-issues-or-need-help)
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
