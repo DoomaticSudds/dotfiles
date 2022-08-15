@@ -174,22 +174,19 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________
 
 # Screenshots:
-![Screenshot from 2022-08-07 17-51-31](https://user-images.githubusercontent.com/109631397/183314612-b484b002-249f-47f9-b6eb-48ddb64aaccd.png)
 
-![Screenshot from 2022-08-07 17-52-02](https://user-images.githubusercontent.com/109631397/183314614-0c800b21-750e-4e3b-8ab3-06663cc4a0f4.png)
+![Screenshot from 2022-08-15 15-36-31](https://user-images.githubusercontent.com/109631397/184716876-22d3a3c3-5252-48e2-)
 
-![Screenshot from 2022-08-07 18-13-25](https://user-images.githubusercontent.com/109631397/183314747-2186f8d7-96b0-4b04-8c81-743cbf52a15b.png)
+![Screenshot from 2022-08-15 15-53-26](https://user-images.githubusercontent.com/109631397/184716889-5c3d1024-8a5d-41ba-9c95-8b076f784a8d.png)
 
-![Screenshot from 2022-08-07 18-26-10](https://user-images.githubusercontent.com/109631397/183315219-49ade2fc-2753-414e-80ab-b8bf479140db.png)
+![Screenshot from 2022-08-15 15-54-14](https://user-images.githubusercontent.com/109631397/184716907-3bc75ba1-40a7-4d23-8b6e-5b618704a89e.png)
+b752-e2e5a8559bfe.png)
 
-![Screenshot from 2022-08-07 18-26-23](https://user-images.githubusercontent.com/109631397/183315223-c3433188-382e-4fd7-ae0d-8e913a04f48a.png)
+![2022-08-15-155524_1366x768_scrot](https://user-images.githubusercontent.com/109631397/184716927-84d358ea-a75f-41ef-a780-359e5b2e6185.png)
 
-![Screenshot from 2022-08-13 09-54-05](https://user-images.githubusercontent.com/109631397/184499488-18cbea6b-7cfa-48b0-bc06-e6545655824c.png)
+![2022-08-15-155737_1366x768_scrot](https://user-images.githubusercontent.com/109631397/184717261-81d2d711-f3ce-4aa4-aa5c-c2303a28651f.png)
 
-![Screenshot from 2022-08-13 09-56-45](https://user-images.githubusercontent.com/109631397/184499560-12b04f78-5b17-4635-a149-fab27b748cda.png)
-
-
-
+![2022-08-15-155831_1366x768_scrot](https://user-images.githubusercontent.com/109631397/184717270-b1b8f4b6-3990-4f7e-8671-2ea127f8dac9.png)
 ________________________________________________________________________________________________________________________________________________________
 
 # Read Bellow if you have issues or Need help.
