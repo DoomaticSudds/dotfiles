@@ -16,6 +16,7 @@ Jump To:
 - [Creating Directories](https://github.com/Santahgeo/dotfiles#make-your-directories-if-needed)
 - [Applying all themes/configs](https://github.com/Santahgeo/dotfiles#applying-dotfiles)
 - [Credits](https://github.com/Santahgeo/dotfiles#credits)
+- [Screenshots](https://github.com/Santahgeo/dotfiles#screenshots)
 - [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/blob/main/README.md#help-and-quickguide)
 _________________________________________________________________________________________________________________________________________________________
 
