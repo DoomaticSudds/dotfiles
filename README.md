@@ -6,7 +6,9 @@
  |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
                                    |___/ 'Dotfiles For Bspwm
 ```                                    
-### I am u/Siurzu & GodHand Siurzu
+I am u/Siurzu & GodHand Siurzu
+### Please check out my [BspwmTokyo Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo) this branch will no longer be developed anymore.
+
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
