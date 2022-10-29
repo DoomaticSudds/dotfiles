@@ -2,15 +2,15 @@
 
 #### BSPWM AUTOSTART ####
 sxhkd &
-~/.config/polybar/LaunchTokyo.sh &
+~/.config/polybar/launch.sh &
 xsetroot -cursor_name left_ptr &
 mpd &
 dunst &
 ~/.fehbg &
 picom &
-#xinput set-prop 11 321 1 &
-#xinput set-prop 11 331 0 &
-#/usr/libexec/polkit-gnome-authentication-agent-1 &
+# xinput set-prop 11 321 1 &
+# xinput set-prop 11 331 0 &
+# /usr/libexec/polkit-gnome-authentication-agent-1 &
 # picom --config ~/.config/picom/picom.conf &
 # /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
