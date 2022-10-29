@@ -48,19 +48,19 @@ ________________________________________________________________________________
 
 Arch Linux: 
 ```
-sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k nemo
+sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k nemo xinput xsetroot
 ```
 
 
 Ubuntu:
 ```
-sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemo
+sudo apt install polybar bspwm picom sxhkd rofi dunst kitty cava feh nemo xinput xsetroot
 ```
 
 
 Fedora: 
 ```
-sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo
+sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo xinput xsetroot
 ```
 
 
