@@ -53,7 +53,7 @@ sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty feh ttf-meslo-nerd-fon
 ```
 
 ```
-paru -S ttf-meslo-nerd-font-powerlevel10k cava betterlockscreen nemo-fileroller acpilight picom-jonaburg-git
+paru -S ttf-meslo-nerd-font-powerlevel10k cava betterlockscreen nemo-fileroller acpilight picom-jonaburg-git ttf-vlgothic
 ```
 
 Ubuntu:
