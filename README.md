@@ -49,9 +49,12 @@ ________________________________________________________________________________
 
 Arch Linux: 
 ```
-sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty cava feh ttf-meslo-nerd-font-powerlevel10k nemo xinput xsetroot
+sudo pacman -S polybar bspwm picom sxhkd rofi dunst kitty feh ttf-meslo-nerd-font-powerlevel10k nemo xorg-xinput xorg-xsetroot networkmanager
 ```
 
+```
+paru -S ttf-meslo-nerd-font-powerlevel10k cava betterlockscreen nemo-fileroller acpilight picom-jonaburg-git
+```
 
 Ubuntu:
 ```
@@ -67,14 +70,10 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo dbus-devel g
 ```
 
 
-# ***Optional: Donwloading picom-jonaburg-git for blurring and animations.***
-
-Arch: 
-```
-yay -Syu picom-jonaburg-git
-```
+# ***Betterlockscreen and Picom-Jonburg.***
 
 [Fedora and Ubuntu Users can read this to see how to build Picom-Jonaburg](https://github.com/jonaburg/picom#installation-of-this-fork).
+[Betterlockscreen Fedora/Ubuntu Users](https://github.com/betterlockscreen/betterlockscreen#installation).
 
 _________________________________________________________________________________________________________________________________________________________
 ### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
@@ -104,7 +103,7 @@ mkdir ~/.fonts
 
 mkdir ~/.config/picom
 
-mkdir ~/Pictures/Wallpapers
+mkdir ~/Pictures/
 ```
 
 ________________________________________________________________________________________________________________________________________________________
@@ -131,9 +130,9 @@ mv ~/dotfiles/cava/config ~/.config/cava
 
 mv ~/dotfiles/bspwm/power.sh ~/.config/bspwm/
 
-sudo cp ~/dotfiles/Rofi/power.rasi/ ~/usr/share/rofi/themes
+sudo cp ~/dotfiles/Rofi/power.rasi/ /usr/share/rofi/themes/
 
-sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
+sudo cp ~/dotfiles/Rofi/orgin.rasi /usr/share/rofi/themes/
 ```
 ## Do not Copy my sxhkdrc if you do not want my keyblinds. 
 
