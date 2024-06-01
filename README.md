@@ -1,12 +1,20 @@
 ```
-  ____              _        _                      
- / ___|  __ _ _ __ | |_ __ _| |__   __ _  ___  ___  
- \___ \ / _` | '_ \| __/ _` | '_ \ / _` |/ _ \/ _ \ 
-  ___) | (_| | | | | || (_| | | | | (_| |  __/ (_) |
- |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
-                                   |___/ 'Dotfiles For Bspwm
+
+  _    _    _    _    _    _    _    _    _    _    _    _  
+{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}
+ /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\ 
+  _     ____                              _   _          _  
+{\o/}  |  _ \  ___   ___  _ __ ___   __ _| |_(_) ___   {\o/}
+ /_\   | | | |/ _ \ / _ \| '_ ` _ \ / _` | __| |/ __|   /_\ 
+  _    | |_| | (_) | (_) | | | | | | (_| | |_| | (__     _  
+{\o/}  |____/ \___/ \___/|_| |_| |_|\__,_|\__|_|\___|  {\o/}
+ /_\                                                    /_\ 
+  _    _    _    _    _    _    _    _    _    _    _    _  
+{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}{\o/}
+ /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  /_\  'Dotfiles for BSPWM (created by Doomatic / u/Siurzu)
 ```   
-I am u/Siurzu /\ GodHand Siurzu
+
+
 
 ### See my [second branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2) of my BSPWM rices for more updated themes. Updates such as powermenus, new rofi themes and different polybar can be found in my [Second Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmV2)
 _________________________________________________________________________________________________________________________________________________________
