@@ -6,8 +6,8 @@
  |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
                                    |___/ 'Dotfiles For Bspwm
 ```                                    
-I am u/Siurzu & GodHand Siurzu
-### Please check out my [BspwmTokyo Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo) this branch will no longer be developed anymore.
+I am u/Siurzu & Doomatic
+### Please check out my [BspwmTokyo Branch](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo) this branch will no longer be developed anymore.
 
 _________________________________________________________________________________________________________________________________________________________
 
@@ -84,7 +84,7 @@ ________________________________________________________________________________
 
 Open your terminal and type:
 ```
-git clone --branch BspwmV2 https://github.com/Santahgeo/dotfiles.git
+git clone --branch BspwmV2 https://github.com/DoomaticSudds/dotfiles.git
 ```
 _________________________________________________________________________________________________________________________________________________________
 # Make your directories if needed:
