@@ -129,9 +129,9 @@ mv ~/dotfiles/cava/config ~/.config/cava
 
 mv ~/dotfiles/bspwm/power.sh ~/.config/bspwm/
 
-sudo cp ~/dotfiles/Rofi/power.rasi/ ~/usr/share/rofi/themes
+sudo cp ~/dotfiles/Rofi/power.rasi/ /usr/share/rofi/themes
 
-sudo cp ~/dotfiles/Rofi/orgin.rasi ~/usr/share/rofi/themes
+sudo cp ~/dotfiles/Rofi/orgin.rasi /usr/share/rofi/themes
 ```
 ## Do not Copy my sxhkdrc if you do not want my keyblinds. 
 
