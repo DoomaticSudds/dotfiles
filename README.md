@@ -6,17 +6,17 @@
  |____/ \__,_|_| |_|\__\__,_|_| |_|\__, |\___|\___/ 
                                    |___/ 'Dotfiles For Bspwm
 ```                                    
-### I am u/Siurzu & GodHand Siurzu
+### I am u/Siurzu & Doomatic
 _________________________________________________________________________________________________________________________________________________________
 
 Jump To: 
-- [Pre-Installation](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#pre-installation)
-- [Cloning the Branch](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#cloning-this-branch)
-- [Creating Directories](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#make-your-directories-if-needed)
-- [Applying all themes/configs](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#applying-dotfiles)
-- [Credits](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#credits)
-- [Screenshots](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#screenshots)
-- [Help/QuickGuide](https://github.com/Santahgeo/dotfiles/tree/BspwmTokyo#read-bellow-if-you-have-issues-or-need-help)
+- [Pre-Installation](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#pre-installation)
+- [Cloning the Branch](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#cloning-this-branch)
+- [Creating Directories](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#make-your-directories-if-needed)
+- [Applying all themes/configs](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#applying-dotfiles)
+- [Credits](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#credits)
+- [Screenshots](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#screenshots)
+- [Help/QuickGuide](https://github.com/DoomaticSudds/dotfiles/tree/BspwmTokyo#read-bellow-if-you-have-issues-or-need-help)
 _________________________________________________________________________________________________________________________________________________________
 
 # Info:
