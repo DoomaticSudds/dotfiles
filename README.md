@@ -84,9 +84,13 @@ sudo dnf install polybar bspwm sxhkd rofi dunst kitty cava feh nemo dbus-devel g
 [Betterlockscreen Fedora/Ubuntu Users](https://github.com/betterlockscreen/betterlockscreen#installation).
 
 _________________________________________________________________________________________________________________________________________________________
-### Make sure you install Iosveka Nerd Fonts 2.0 for icons to work on polybar. This could be found at: https://sourceforge.net/projects/nerd-fonts.mirror/files/v2.0.0/
+### Make sure you install Iosveka Nerd Fonts and Nerd Fonts Symbols only for polybar! 
+
+Nerd Fonts Symbols Only: [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/NerdFontsSymbolsOnly.zip](url)
+Iosevka Nerd Fonts: [https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip](url)
 
 ### Also install Melso-Nerd-Fonts if you want the correct fonts to work in Kitty.
+
 
 # Cloning This Branch:
 
